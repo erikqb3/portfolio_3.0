@@ -5,8 +5,8 @@
     "filterCategory": ["For Authors","2020 - 2024"],
     "yearCreated": 2022,
     "thumbnailPaths": [
-      "../resources/img/JeremyCole.jpg",
-      "../resources/img/Square.png"
+      "resources/img/JeremyCole.jpg",
+      "resources/img/Square.png"
     ],
     "preview" : {
       "previewPath": "views/preview.html?id=01",
@@ -22,8 +22,8 @@
     "filterCategory": ["For Artists","2020 - 2024"],
     "yearCreated": 2022,
     "thumbnailPaths": [
-      "../resources/img/creativeKeturah.jpg",
-      "../resources/img/Square.png"
+      "resources/img/creativeKeturah.jpg",
+      "resources/img/Square.png"
     ],
     "preview" : {
       "previewPath": "views/preview.html?id=02",
@@ -39,8 +39,8 @@
     "filterCategory": ["For Anyone Else", "For Academics","2020 - 2024"],
     "yearCreated": 2022,
     "thumbnailPaths": [
-      "../resources/img/SapienDesigns.jpg",
-      "../resources/img/Square.png"
+      "resources/img/SapienDesigns.jpg",
+      "resources/img/Square.png"
     ],
     "preview" : {
       "previewPath": "views/preview.html?id=03",
@@ -73,8 +73,8 @@
     "filterCategory": ["For Academics","2020 - 2024"],
     "yearCreated": 2021,
     "thumbnailPaths": [
-      "../resources/img/FHB_thumbnail.png",
-      "../resources/img/Square.png"
+      "resources/img/FHB_thumbnail.png",
+      "resources/img/Square.png"
     ],
     "preview" : {
       "previewPath": "views/preview.html?id=05",
