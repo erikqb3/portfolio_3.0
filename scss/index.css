@@ -6,16 +6,10 @@
 }
 
 @media only screen and (min-width: 0px) {
-  * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-  }
-  body {
+  html body {
     background-color: whitesmoke;
   }
-  header {
+  html body header {
     position: initial;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -32,30 +26,30 @@
     -webkit-transition: opacity 0.75s;
     transition: opacity 0.75s;
   }
-  header h1 {
+  html body header h1 {
     font-size: 2rem;
     font-weight: 400;
     margin: 0 0 0 5%;
     font-family: 'Lucida Handwriting', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  header p {
+  html body header p {
     display: none;
   }
-  header div#hamBtn {
+  html body header div#hamBtn {
     color: white;
     font-size: 1.5rem;
     margin: 0 5% 0 auto;
     font-weight: bold;
     cursor: pointer;
   }
-  header div#filterSettings_void {
+  html body header div#filterSettings_void {
     position: fixed;
     right: 60vw;
     top: 0;
     height: 0vh;
     z-index: 3;
   }
-  header div#filterSettings_holder {
+  html body header div#filterSettings_holder {
     display: none;
     position: fixed;
     overflow-y: scroll;
@@ -67,11 +61,11 @@
     height: 0vh;
     width: 0vw;
   }
-  header div#filterSettings_holder ul {
+  html body header div#filterSettings_holder ul {
     padding: 0;
     margin: 0;
   }
-  header div#filterSettings_holder ul li {
+  html body header div#filterSettings_holder ul li {
     text-align: center;
     list-style-type: none;
     width: 100%;
@@ -79,10 +73,10 @@
     font-size: 2rem;
     cursor: pointer;
   }
-  header div#filterSettings_holder ul li:hover {
+  html body header div#filterSettings_holder ul li:hover {
     background-color: #01052a;
   }
-  header div#filterSettings_void.visible {
+  html body header div#filterSettings_void.visible {
     width: 0vw;
     height: 100vh;
     background-color: rgba(0, 0, 0, 0);
@@ -95,7 +89,7 @@
     -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
   }
-  header div#filterSettings_holder.visible {
+  html body header div#filterSettings_holder.visible {
     display: block;
     width: 0vw;
     height: 100vh;
@@ -142,7 +136,7 @@
       background-color: rgba(0, 0, 0, 0.75);
     }
   }
-  header.scrollDownEffect {
+  html body header.scrollDownEffect {
     position: fixed;
     -webkit-animation-name: headerSDE;
             animation-name: headerSDE;
@@ -167,8 +161,9 @@
       opacity: 1;
     }
   }
-  footer {
+  html body footer {
     position: relative;
+    width: 100%;
     height: 150px;
     margin-top: 0rem;
     background-color: #3a3a3a;
@@ -176,58 +171,58 @@
 }
 
 @media only screen and (min-width: 768px) {
-  header {
+  html body header {
     height: 5rem;
   }
-  header h1 {
+  html body header h1 {
     margin: 0 0 0 2.5%;
   }
-  header div#hamBtn {
+  html body header div#hamBtn {
     font-size: 2.5rem;
     margin: 0 2.5% 0 auto;
   }
-  header div#filterSettings_holder {
+  html body header div#filterSettings_holder {
     -webkit-transition: width 0.25s linear;
     transition: width 0.25s linear;
   }
-  header div#filterSettings_holder ul li {
+  html body header div#filterSettings_holder ul li {
     font-size: 2rem;
   }
-  footer {
+  html body footer {
     margin-top: 0rem;
   }
 }
 
 @media only screen and (min-width: 992px) {
-  header {
+  html body header {
     height: 5rem;
     top: 0;
     width: 100%;
     background-color: white;
     color: #000855;
   }
-  header h1 {
+  html body header h1 {
     font-size: 2rem;
     margin: 0 0 0 2%;
   }
-  header p {
+  html body header p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto 0 1%;
     font-size: 1.5rem;
   }
-  header div#hamBtn {
+  html body header div#hamBtn {
     display: none;
   }
-  header div#filterSettings_holder {
+  html body header div#filterSettings_holder {
     position: absolute;
     display: block;
     width: 40vw;
     height: 5rem;
     overflow: initial;
   }
-  header div#filterSettings_holder ul#nav {
+  html body header div#filterSettings_holder ul#nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -237,7 +232,7 @@
             align-items: center;
     height: 5rem;
   }
-  header div#filterSettings_holder ul#nav li {
+  html body header div#filterSettings_holder ul#nav li {
     display: block;
     padding: 0 auto;
     font-size: 1.5rem;
@@ -246,43 +241,43 @@
     height: -moz-fit-content;
     height: fit-content;
   }
-  header div#filterSettings_holder ul#nav li div#ST_dropDwn_Btn,
-  header div#filterSettings_holder ul#nav li div#YC_dropDwn_Btn {
+  html body header div#filterSettings_holder ul#nav li div#ST_dropDwn_Btn,
+  html body header div#filterSettings_holder ul#nav li div#YC_dropDwn_Btn {
     line-height: 5rem;
   }
-  header div#filterSettings_holder ul#nav li ul {
+  html body header div#filterSettings_holder ul#nav li ul {
     display: none;
     margin: 0;
     padding: 0;
   }
-  header div#filterSettings_holder ul#nav li ul li {
+  html body header div#filterSettings_holder ul#nav li ul li {
     margin: 0;
     line-height: 1.5rem;
     font-size: 1rem;
     background-color: #01052a;
     color: white;
   }
-  header div#filterSettings_holder ul#nav li ul li:hover {
+  html body header div#filterSettings_holder ul#nav li ul li:hover {
     background-color: #3a3a3a;
   }
-  header div#filterSettings_holder ul#nav li ul#ST_dropDwn_content {
+  html body header div#filterSettings_holder ul#nav li ul#ST_dropDwn_content {
     height: 15rem;
   }
-  header div#filterSettings_holder ul#nav li ul#YC_dropDwn_content {
+  html body header div#filterSettings_holder ul#nav li ul#YC_dropDwn_content {
     height: 20rem;
   }
-  header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(2),
-  header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(3),
-  header div#filterSettings_holder ul#nav li.dropDwn_holder:hover > div {
+  html body header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(2),
+  html body header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(3),
+  html body header div#filterSettings_holder ul#nav li.dropDwn_holder:hover > div {
     padding: 0;
   }
-  header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(2):hover > div {
+  html body header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(2):hover > div {
     margin-top: 15rem;
   }
-  header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(3):hover > div {
+  html body header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(3):hover > div {
     margin-top: 20rem;
   }
-  header div#filterSettings_holder ul#nav li.dropDwn_holder:hover > ul {
+  html body header div#filterSettings_holder ul#nav li.dropDwn_holder:hover > ul {
     display: block;
   }
 }
