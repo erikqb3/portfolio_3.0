@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@media only screen and (min-width: 0px) {
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  body {
+    background-color: whitesmoke;
+  }
+  header {
+    position: initial;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 5rem;
+    top: 0;
+    width: 100%;
+    background-color: #000855;
+    color: white;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 3;
+    -webkit-transition: opacity 0.75s;
+    transition: opacity 0.75s;
+  }
+  header h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0 0 0 5%;
+    font-family: 'Lucida Handwriting', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  header p {
+    display: none;
+  }
+  header div#hamBtn {
+    color: white;
+    font-size: 1.5rem;
+    margin: 0 5% 0 auto;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  header div#filterSettings_void {
+    position: fixed;
+    right: 60vw;
+    top: 0;
+    height: 0vh;
+    z-index: 3;
+  }
+  header div#filterSettings_holder {
+    display: none;
+    position: fixed;
+    overflow-y: scroll;
+    z-index: 3;
+    background-color: #000855;
+    color: white;
+    right: 0;
+    top: 0;
+    height: 0vh;
+    width: 0vw;
+  }
+  header div#filterSettings_holder ul {
+    padding: 0;
+    margin: 0;
+  }
+  header div#filterSettings_holder ul li {
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  header div#filterSettings_holder ul li:hover {
+    background-color: #01052a;
+  }
+  header div#filterSettings_void.visible {
+    width: 0vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    -webkit-animation-name: unfold2;
+            animation-name: unfold2;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  header div#filterSettings_holder.visible {
+    display: block;
+    width: 0vw;
+    height: 100vh;
+    -webkit-animation-name: unfold;
+            animation-name: unfold;
+    -webkit-animation-duration: 0.5s;
+            animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  @-webkit-keyframes unfold {
+    from {
+      width: 0;
+    }
+    to {
+      width: 65vw;
+    }
+  }
+  @keyframes unfold {
+    from {
+      width: 0;
+    }
+    to {
+      width: 65vw;
+    }
+  }
+  @-webkit-keyframes unfold2 {
+    from {
+      width: 0;
+      background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+      width: 40vw;
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+  }
+  @keyframes unfold2 {
+    from {
+      width: 0;
+      background-color: rgba(0, 0, 0, 0);
+    }
+    to {
+      width: 40vw;
+      background-color: rgba(0, 0, 0, 0.75);
+    }
+  }
+  header.scrollDownEffect {
+    position: fixed;
+    -webkit-animation-name: headerSDE;
+            animation-name: headerSDE;
+    -webkit-animation-duration: 0.75s;
+            animation-duration: 0.75s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+  }
+  @-webkit-keyframes headerSDE {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes headerSDE {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  footer {
+    position: relative;
+    height: 150px;
+    margin-top: 0rem;
+    background-color: #3a3a3a;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header {
+    height: 5rem;
+  }
+  header h1 {
+    margin: 0 0 0 2.5%;
+  }
+  header div#hamBtn {
+    font-size: 2.5rem;
+    margin: 0 2.5% 0 auto;
+  }
+  header div#filterSettings_holder {
+    -webkit-transition: width 0.25s linear;
+    transition: width 0.25s linear;
+  }
+  header div#filterSettings_holder ul li {
+    font-size: 2rem;
+  }
+  footer {
+    margin-top: 0rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  header {
+    height: 5rem;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    color: #000855;
+  }
+  header h1 {
+    font-size: 2rem;
+    margin: 0 0 0 2%;
+  }
+  header p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto 0 1%;
+    font-size: 1.5rem;
+  }
+  header div#hamBtn {
+    display: none;
+  }
+  header div#filterSettings_holder {
+    position: absolute;
+    display: block;
+    width: 40vw;
+    height: 5rem;
+    overflow: initial;
+  }
+  header div#filterSettings_holder ul#nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 5rem;
+  }
+  header div#filterSettings_holder ul#nav li {
+    display: block;
+    padding: 0 auto;
+    font-size: 1.5rem;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  header div#filterSettings_holder ul#nav li div#ST_dropDwn_Btn,
+  header div#filterSettings_holder ul#nav li div#YC_dropDwn_Btn {
+    line-height: 5rem;
+  }
+  header div#filterSettings_holder ul#nav li ul {
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+  header div#filterSettings_holder ul#nav li ul li {
+    margin: 0;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    background-color: #01052a;
+    color: white;
+  }
+  header div#filterSettings_holder ul#nav li ul li:hover {
+    background-color: #3a3a3a;
+  }
+  header div#filterSettings_holder ul#nav li ul#ST_dropDwn_content {
+    height: 15rem;
+  }
+  header div#filterSettings_holder ul#nav li ul#YC_dropDwn_content {
+    height: 20rem;
+  }
+  header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(2),
+  header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(3),
+  header div#filterSettings_holder ul#nav li.dropDwn_holder:hover > div {
+    padding: 0;
+  }
+  header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(2):hover > div {
+    margin-top: 15rem;
+  }
+  header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(3):hover > div {
+    margin-top: 20rem;
+  }
+  header div#filterSettings_holder ul#nav li.dropDwn_holder:hover > ul {
+    display: block;
+  }
+}
+/*# sourceMappingURL=index.css.map */
