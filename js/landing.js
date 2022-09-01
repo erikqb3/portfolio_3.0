@@ -232,7 +232,7 @@ export const establishHTML = {
 
       mainGrid.appendChild(projectHolder);
     }
-    mainGrid.style.backgroundImage = "url('../resources/img/Early\ Morning\ Fantasy.jpg')"
+    mainGrid.style.backgroundImage = "url('resources/img/Early\ Morning\ Fantasy.jpg')"
     contentWrap = helperFunctions.nestChildren(contentWrap, newMain,mainGrid)
     // contentWrap.appendChild(newMain);
     // console.log(results[i].name);
