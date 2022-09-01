@@ -70,6 +70,7 @@ const establishHTML = {
       infoSection = helperFunctions.appendChildren(infoSection, title,descript)
       side2.appendChild(infoSection);
       popUp = helperFunctions.appendChildren(popUp, side1,side2);
+      popUp.classList.add('fadeIn');
       popUp.addEventListener('click',(e)=>{
         popUp.remove();
       })

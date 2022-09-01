@@ -246,6 +246,28 @@
     line-height: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
   }
+  html body section#popUp.fadeIn {
+    -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+    -webkit-animation-duration: 0.75s;
+            animation-duration: 0.75s;
+  }
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 }
 
 @media only screen and (min-width: 760px) {
