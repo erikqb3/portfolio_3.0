@@ -202,7 +202,7 @@
   }
   html body header img#logo {
     height: 5rem;
-    content: url("../resources/img/EQB_logo.jpg");
+    content: url("resources/img/EQB_logo.jpg");
   }
   html body header p {
     display: -webkit-box;
