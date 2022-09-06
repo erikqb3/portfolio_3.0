@@ -75,7 +75,7 @@ export const establishHTML = {
   header: function (
     header = helperFunctions.generateElement('header'),
     // name = helperFunctions.generateElement('h1', '', '', 'Erik Q.<br>Birch'),
-    name = helperFunctions.generateElement('img',"logo","","","../resources/img/EQB_logo.jpg"),
+    name = helperFunctions.generateElement('img',"logo","","","../../resources/img/EQB_logo.jpg"),
     titles = helperFunctions.generateElement('p','','','Web Designer | Developer | Creator'),
     hamBtn = helperFunctions.generateElement('div', 'hamBtn', '', '&#9776'),
     filterSettings_void = helperFunctions.generateElement('div', 'filterSettings_void'),
