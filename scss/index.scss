@@ -20,12 +20,17 @@
         align-items: center;
         z-index: 3;
         transition: opacity 0.75s;
-        h1 {
-          font-size: 2rem;
-          font-weight: 400;
-          margin: 0 0 0 5%;
-          font-family:'Lucida Handwriting', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-          // text-shadow: 2px 2px 2px black;
+        // h1 {
+        //   font-size: 2rem;
+        //   font-weight: 400;
+        //   margin: 0 0 0 5%;
+        //   font-family:'Lucida Handwriting', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        //   // text-shadow: 2px 2px 2px black;
+        // }
+        img#logo {
+          height: 5rem;
+          width: auto;
+          margin: 0 0 0 0%;
         }
         p {
           display: none;
@@ -169,9 +174,12 @@
     body{
       header {
         height: 5rem;
-        h1 {
-          // font-size: 3rem;
-          margin: 0 0 0 2.5%;
+        // h1 {
+        //   // font-size: 3rem;
+        //   margin: 0 0 0 2.5%;
+        // }
+        img#logo {
+          margin: 0 0 0 0%;
         }
         p {
         }
@@ -210,9 +218,14 @@
         width: 100%;
         background-color:white;
         color: rgba(0,8,85,1);
-        h1 {
-          font-size: 2rem;
-          margin: 0 0 0 2%;
+        // h1 {
+        //   font-size: 2rem;
+        //   margin: 0 0 0 2%;
+        // }
+        img#logo {
+          height: 5rem;
+          content:url("../resources/img/EQB_logo.jpg") //COOL TRICK
+          // width: 100%;
         }
         p {
           display: flex;

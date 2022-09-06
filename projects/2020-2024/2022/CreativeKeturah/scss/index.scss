@@ -185,6 +185,18 @@
         from{opacity: 0;}
         to {opacity: 1;}
       }
+      i#scrollUp{
+        position:fixed;
+        bottom:1rem;
+        right: 1rem;
+        color:black;
+        font-size: 2rem;
+        cursor:pointer;
+        // opacity:0;
+    }
+    i#scrollUp:hover{
+      color:rgba(0, 81, 255, 0.50);
+    };
     }
   }
 }

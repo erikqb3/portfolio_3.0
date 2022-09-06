@@ -268,6 +268,17 @@
       opacity: 1;
     }
   }
+  html body i#scrollUp {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  html body i#scrollUp:hover {
+    color: rgba(0, 81, 255, 0.5);
+  }
 }
 
 @media only screen and (min-width: 760px) {

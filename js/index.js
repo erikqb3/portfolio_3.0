@@ -1,7 +1,8 @@
 export const sharedHTML = {
   header: function (
     header = helperFunctions.generateElement('header'),
-    name = helperFunctions.generateElement('h1', '', '', 'Erik Q.<br>Birch'),
+    name = helperFunctions.generateElement('img',"logo","","","../resources/img/EQB_logo_white.jpg"),
+    // name = helperFunctions.generateElement('h1', '', '', 'Erik Q.<br>Birch'),
     titles = helperFunctions.generateElement('p','','','Web Designer | Developer | Creator'),
     hamBtn = helperFunctions.generateElement('div', 'hamBtn', '', '&#9776'),
     filterSettings_void = helperFunctions.generateElement('div', 'filterSettings_void'),

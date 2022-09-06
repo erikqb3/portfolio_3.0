@@ -77,6 +77,26 @@ const establishHTML = {
       document.querySelector('body').appendChild(popUp);
 
   },
+  scrollUp : function(icon = document.getElementById('scrollUp')){
+    window.addEventListener('scroll', (e)=>{
+      let scroll = window.scrollY;
+      console.log(scroll)
+      try{
+          if (scroll > 0){
+              icon.style.opacity=1;
+          }
+          else{
+              icon.style.opacity=0
+          }
+          icon.addEventListener('click',(e)=>{
+              document.documentElement.scrollTop = 0;
+          })
+          
+      }
+      catch(err){console.log(err)}
+          
+      })
+  },
   useFunctions : function(){
     this.fetchFromJSON();
     

@@ -74,7 +74,8 @@ export const establishHTML = {
   // },
   header: function (
     header = helperFunctions.generateElement('header'),
-    name = helperFunctions.generateElement('h1', '', '', 'Erik Q.<br>Birch'),
+    // name = helperFunctions.generateElement('h1', '', '', 'Erik Q.<br>Birch'),
+    name = helperFunctions.generateElement('img',"logo","","","../resources/img/EQB_logo.jpg"),
     titles = helperFunctions.generateElement('p','','','Web Designer | Developer | Creator'),
     hamBtn = helperFunctions.generateElement('div', 'hamBtn', '', '&#9776'),
     filterSettings_void = helperFunctions.generateElement('div', 'filterSettings_void'),
@@ -119,7 +120,7 @@ export const establishHTML = {
     quoteInfo = this.heroQuotes(),
     hero = helperFunctions.generateElement('section', 'hero'),
     infoHolder = helperFunctions.generateElement('div', 'infoHolder'),
-    title = helperFunctions.generateElement('h2', 'title', '', 'Showcase Portfolio 2.0'),
+    title = helperFunctions.generateElement('h2', 'title', '', 'Showcase Portfolio 3.0'),
     quote = helperFunctions.generateElement('p', 'quote', '', `${quoteInfo[0]}`),
     author = helperFunctions.generateElement('p', 'author', '', `${quoteInfo[1]}`),
     video = helperFunctions.generateElement('video', '', 'video'),
