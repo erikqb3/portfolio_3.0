@@ -1,7 +1,7 @@
 export const sharedHTML = {
   header: function (
     header = helperFunctions.generateElement('header'),
-    name = helperFunctions.generateElement('img',"logo","","","resources/img/EQB_logo_white.jpg"),
+    name = helperFunctions.generateElement('img',"logo","","","../resources/img/EQB_logo.jpg"),
     // name = helperFunctions.generateElement('h1', '', '', 'Erik Q.<br>Birch'),
     titles = helperFunctions.generateElement('p','','','Web Designer | Developer | Creator'),
     hamBtn = helperFunctions.generateElement('div', 'hamBtn', '', '&#9776'),
@@ -9,7 +9,7 @@ export const sharedHTML = {
     filterSettings_holder = helperFunctions.generateElement('div','filterSettings_holder'),
     filterSettings_list = helperFunctions.generateElement('ul',"nav"),
     // listOptions = ['Portfolio', 'Resume', 'Contact']
-    listOptions = ['Portfolio', 'Resume', 'Contact']
+    listOptions = ['Portfolio', 'Reviews', 'Resume', 'Contact']
   ) {
     /**
      * STEP1: give Hamburger Menu Button an event listener
@@ -24,13 +24,17 @@ export const sharedHTML = {
     for (let i in listOptions) {//STEP2a
       listOptions[i] = helperFunctions.generateElement('li', '', '', listOptions[i]);
       filterSettings_list.appendChild(listOptions[i]);
+
+      if(i>0){
+        listOptions[i].classList.add("link");
+      }
     }
     //STEP3
     filterSettings_holder.appendChild(filterSettings_list);
     header = helperFunctions.appendChildren(header, name,titles,hamBtn,filterSettings_void,filterSettings_holder);
     document.querySelector('body').appendChild(header);
 
-    addAction.useFunctions()
+    addAction.useFunctions();
   },
   footer: function (footerElement = helperFunctions.generateElement('footer')) {
     // console.log(footerElement);
@@ -122,11 +126,33 @@ export const addAction = {
         }
       }
     },
+    navLinks : function(navOptions = document.getElementById('nav').children)
+    {
+      console.log(navOptions);
+      for (let i of navOptions){
+        // console.log(i)
+        if (i.classList.contains("link")){
+          console.log(i);
+          switch(i.innerHTML){
+            case "Reviews":
+              break;
+            case "Resume":
+              i.addEventListener('click',(e)=>{
+                window.location.href = ("../views/resume.html");
+              })
+              break;
+            case "Contact":
+              break;
+          }
+        }
+      }
+    },
     useFunction : function(){
       this.filterSettings_void();
       this.hambBtn();
       this.navItems_array();
       this.fixedheader();
+      this.navLinks();
     }
   },
 

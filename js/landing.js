@@ -82,7 +82,7 @@ export const establishHTML = {
     filterSettings_holder = helperFunctions.generateElement('div','filterSettings_holder'),
     filterSettings_list = helperFunctions.generateElement('ul',"nav"),
     // listOptions = ['Portfolio', 'Resume', 'Contact']
-    listOptions = ['View ALL', 'Site Type', 'Year', 'Resume', 'Contact']
+    listOptions = ['View ALL', 'Site Type', 'Year', 'Reviews', 'Resume', 'Contact']
   ) {
     /**
      * STEP1: give Hamburger Menu Button an event listener
@@ -103,6 +103,9 @@ export const establishHTML = {
       } else {
         listOptions[i] = helperFunctions.generateElement('li', '', '', listOptions[i]);
       }
+      if(i>=3){
+        listOptions[i].classList.add("link");
+      }
       // listOptions[i] = helperFunctions.generateElement('li', '', '', listOptions[i]);
       filterSettings_list.appendChild(listOptions[i]);
     }
@@ -111,6 +114,7 @@ export const establishHTML = {
     header = helperFunctions.appendChildren(header, name,titles,hamBtn,filterSettings_void,filterSettings_holder);
     document.querySelector('body').appendChild(header);
 
+    // addAction.navLinks();
     addAction.useFunctions();
     landingPageActions.viewALL();
     landingPageActions.DDButton();
@@ -382,7 +386,6 @@ const landingPageActions = {
     // console.log(foundProjects)
     return foundProjects;
   },
- 
   viewALL : function(btn = document.getElementById('nav').children[0]){
     btn.addEventListener('click',(e)=>{
       document.getElementById('mainContent').remove();
@@ -390,6 +393,7 @@ const landingPageActions = {
       establishHTML.mainContent();
     })
   }
+  
 }
 
 

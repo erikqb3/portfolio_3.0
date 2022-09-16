@@ -1,0 +1,4 @@
+in terminal
+- check if you have node --> node -v
+- install Angular --> npm install -g @angular/cli
+ 

@@ -9,6 +9,7 @@
   html body {
     min-height: 100vh;
     background-color: whitesmoke;
+    position: relative;
   }
   html body div#disclaimerPopUp {
     position: fixed;
@@ -231,8 +232,8 @@
   html body main {
     position: relative;
     background-color: whitesmoke;
-    margin-top: 2.5rem;
     padding-bottom: 3rem;
+    height: 100%;
   }
   html body main section#hero {
     width: 100%;
@@ -385,7 +386,8 @@
     grid-column: 2 / span 2;
   }
   html body footer {
-    position: relative;
+    position: absolute;
+    bottom: 0;
     width: 100%;
     height: 150px;
     margin-top: 0rem;
@@ -412,7 +414,6 @@
     font-size: 2rem;
   }
   html body main {
-    margin-top: 2.5rem;
     padding-bottom: 7.5rem;
   }
   html body main section#hero {
@@ -525,7 +526,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     padding: 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     width: 100%;
     height: 5rem;
   }
@@ -585,9 +586,6 @@
   }
   html body header div#filterSettings_holder ul#nav li.dropDwn_holder:hover ul li {
     width: 100%;
-  }
-  html body main {
-    margin-top: 2.5rem;
   }
   html body main section#hero {
     height: 35rem;
