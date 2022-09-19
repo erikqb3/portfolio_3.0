@@ -1,0 +1,54 @@
+@media only screen and (min-width: 0px) {
+  main {
+    padding: 2.5rem 0;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main a#resumeLink {
+    margin: 0 auto;
+    width: 100%;
+  }
+  main a#resumeLink img {
+    width: 100%;
+  }
+  main a#returnBtn {
+    margin: 1rem auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  main a#resumeLink {
+    width: 75%;
+  }
+  main a#resumeLink img {
+    width: 100%;
+  }
+  main a#returnBtn {
+    margin: 1rem auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  main a#resumeLink {
+    width: 50%;
+  }
+  main a#resumeLink img {
+    width: 100%;
+  }
+  main a#returnBtn {
+    margin: 1rem auto;
+  }
+}
+/*# sourceMappingURL=resume.css.map */

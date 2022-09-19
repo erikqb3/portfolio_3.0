@@ -1,11 +1,11 @@
 {
   "project01": {
     "id" : "01",
-    "name": "Jeremy Cole",
+    "name": "Jeremy<br>Cole",
     "filterCategory": ["For Authors","2020 - 2024"],
     "yearCreated": 2022,
     "thumbnailPaths": [
-      "resources/img/JeremyCole.jpg",
+      "resources/img/Tree.png",
       "resources/img/Square.png"
     ],
     "preview" : {
@@ -18,7 +18,7 @@
   },
   "project02": {
     "id" : "02",
-    "name": "Creative Keturah",
+    "name": "Creative<br>Keturah",
     "filterCategory": ["For Artists","2020 - 2024"],
     "yearCreated": 2022,
     "thumbnailPaths": [
@@ -35,7 +35,7 @@
   },
   "project03": {
     "id" : "03",
-    "name": "Sapien Designs Multimedia",
+    "name": "Sapien Designs<br>Multimedia",
     "filterCategory": ["For Anyone Else", "For Academics","2020 - 2024"],
     "yearCreated": 2022,
     "thumbnailPaths": [
@@ -52,7 +52,7 @@
   },
   "project04": {
     "id" : "04",
-    "name": "Pokemon Cafe Mix (Fan-Art)",
+    "name": "Pokemon Cafe Mix<br>(Fan-Art)",
     "filterCategory": ["2020 - 2024"],
     "yearCreated": 2021,
     "thumbnailPaths": [
@@ -69,7 +69,7 @@
   },
   "project05": {
     "id" : "05",
-    "name": "Family History Bingo",
+    "name": "Family History<br>Bingo",
     "filterCategory": ["For Academics","2020 - 2024"],
     "yearCreated": 2021,
     "thumbnailPaths": [
@@ -86,7 +86,7 @@
   },
   "project06": {
     "id" : "06",
-    "name": "Pokemon: Ro-Sha-Bo!",
+    "name": "Pokemon:<br>Ro-Sha-Bo!<br>(Fan-Art)",
     "filterCategory": ["For Academics","2020 - 2024"],
     "yearCreated": 2021,
     "thumbnailPaths": [
@@ -103,7 +103,7 @@
   },
   "project07": {
     "id" : "07",
-    "name": "You Know Studio Ghibli?!?!",
+    "name": "You Know<br>Studio Ghibli?!?!<br>(Fan-Art)",
     "filterCategory": ["For Academics","2020 - 2024"],
     "yearCreated": 2021,
     "thumbnailPaths": [
@@ -120,7 +120,7 @@
   },
   "project08": {
     "id" : "08",
-    "name": "Zelda BOTW Bazaar",
+    "name": "Zelda<br>BOTW Bazaar<br>(Fan-Art)",
     "filterCategory": ["For Academics","2020 - 2024"],
     "yearCreated": "",
     "thumbnailPaths": [

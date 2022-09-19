@@ -297,6 +297,12 @@ export const helperFunctions = {
     }
     return parent;
   },
+  removeBRelement: function (text){
+    while (text.indexOf("<br>") != -1){
+      text = text.replace("<br>"," ");
+    }
+    return text;
+  },
   urlKeyCheck : function(key="", valueLength=0, url = window.location.href){
     let key_URLpos = parseFloat(url.search(`${key}`));
     let startingPoint = key_URLpos+(valueLength+1)

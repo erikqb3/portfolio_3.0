@@ -1,0 +1,53 @@
+@media only screen and (min-width: 0px) {
+  main{
+    padding: 2.5rem 0;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    a#resumeLink{
+      margin: 0 auto;
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+    a#returnBtn{
+      margin: 1rem auto;
+    }
+  }
+}
+@media only screen and (min-width: 768px) {
+  main{
+    a#resumeLink{
+      width: 75%;
+      img{
+        width: 100%;
+        
+      }
+    }
+    a#returnBtn{
+      margin: 1rem auto;
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+  main{
+    a#resumeLink{
+      width: 50%;
+      img{
+        width: 100%;
+        
+      }
+    }
+    a#returnBtn{
+      margin: 1rem auto;
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1600px) {
+  // @import '_index(mega)';
+}
+

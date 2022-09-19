@@ -258,7 +258,7 @@ export const establishHTML = {
       let infoOverlay = helperFunctions.generateElement('div', '', 'infoOverlay');
       let label = helperFunctions.generateElement('h3', '', 'label', `${results[i].name}`);
       let thumbnail = helperFunctions.generateElement('img','','thumbnail');
-      thumbnail = helperFunctions.customSpecialElements(thumbnail,[`${results[i].thumbnailPaths[0]}`,`${results[i].name}`])
+      thumbnail = helperFunctions.customSpecialElements(thumbnail,[`${results[i].thumbnailPaths[0]}`,`${helperFunctions.removeBRelement(results[i].name)}`])
 
       infoOverlay.appendChild(label);
       contentHolder = helperFunctions.appendChildren(

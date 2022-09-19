@@ -74,13 +74,13 @@ const establishHTML = {
     side1 = helperFunctions.generateElement('section',"side1"),
     side2 = helperFunctions.generateElement('section',"side2"),
     infoSection = helperFunctions.generateElement('div',"infoSection"),
-    title = helperFunctions.generateElement('h1',"","",`${target.name}`),
+    title = helperFunctions.generateElement('h1',"","",`${helperFunctions.removeBRelement(target.name)}`),
     year = helperFunctions.generateElement('span',"year","",`${target.yearCreated}`),
     descript = helperFunctions.generateElement('p',"","",`${target.preview.description}`),
     tagList = helperFunctions.generateElement('div',"tagList"),
     btnHolder = helperFunctions.generateElement('div',"previewBtnHolder"),
-    viewBtn = helperFunctions.generateElement('a',"viewBtn","","View Site",`${target.preview.sitePath}`),
-    returnBtn = helperFunctions.generateElement('a',"returnBtn","","Return","../index.html"),
+    viewBtn = helperFunctions.generateElement('a',"viewBtn","button","View Site",`${target.preview.sitePath}`),
+    returnBtn = helperFunctions.generateElement('a',"returnBtn","button","Return","../index.html"),
   ){
     let carouselElements = this.carouselHTML(target);
 

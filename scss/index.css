@@ -29,7 +29,8 @@
   html body header img#logo {
     height: 5rem;
     width: auto;
-    margin: 0 0 0 0%;
+    margin: 0 0 0 0;
+    content: url("../resources/img/EQB_logo_white.jpg");
   }
   html body header p {
     display: none;
@@ -167,6 +168,29 @@
     margin-top: 0rem;
     background-color: #3a3a3a;
   }
+  html body a.button:link,
+  html body a.button:visited {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    background-color: #000855;
+    text-decoration: none;
+    width: 7.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+  }
+  html body a.button:hover,
+  html body a.button:active {
+    background-color: rgba(0, 8, 85, 0.5);
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -202,7 +226,7 @@
   }
   html body header img#logo {
     height: 5rem;
-    content: url("resources/img/EQB_logo.jpg");
+    content: url("../resources/img/EQB_logo.jpg");
   }
   html body header p {
     display: -webkit-box;

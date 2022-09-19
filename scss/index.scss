@@ -30,8 +30,10 @@
         img#logo {
           height: 5rem;
           width: auto;
-          margin: 0 0 0 0%;
+          margin: 0 0 0 0;
+          content:url("../resources/img/EQB_logo_white.jpg");
         }
+
         p {
           display: none;
         }
@@ -166,6 +168,23 @@
         margin-top: 0rem;
         background-color: #3a3a3a;
       }
+      a.button:link,
+      a.button:visited {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        color:white;
+        background-color: rgba(0,8,85,1);
+        text-decoration:none;
+        width: 7.5rem;
+        padding: 0.5rem 1rem;
+        border:none;
+        border-radius: 5px;
+      }
+      a.button:hover,
+      a.button:active {
+        background-color: rgba(0,8,85,0.5);
+      }
     }
   }
 }
@@ -224,9 +243,10 @@
         // }
         img#logo {
           height: 5rem;
-          content:url("resources/img/EQB_logo.jpg") //COOL TRICK
+          content:url("../resources/img/EQB_logo.jpg") //COOL TRICK
           // width: 100%;
         }
+
         p {
           display: flex;
           margin: 0 auto 0 1%;
