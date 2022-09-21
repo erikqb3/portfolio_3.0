@@ -30,7 +30,7 @@
       "sitePath":"../projects/2020-2024/2022/CreativeKeturah/index.html",
       "carouselImgs" : ["../resources/img/SampleScreenShots/CreativeKeturah/CreativeKeturahSample0.jpg","../resources/img/SampleScreenShots/CreativeKeturah/CreativeKeturahSample1.jpg","../resources/img/SampleScreenShots/CreativeKeturah/CreativeKeturahSample2.jpg","../resources/img/SampleScreenShots/CreativeKeturah/CreativeKeturahSample3.jpg","../resources/img/SampleScreenShots/CreativeKeturah/CreativeKeturahSample4.jpg"],
       "tags": [],
-      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iure distinctio labore enim ad veritatis id aliquam eaque quod atque facilis impedit ex, dignissimos possimus harum eos omnis! Aliquam exercitationem, eos autem, adipisci corrupti iure voluptate excepturi odio necessitatibus a veniam? Placeat quis, fugit veniam ducimus voluptates deserunt commodi minima sed dolor dolore eius nesciunt reprehenderit, impedit corporis illo, ut tempore voluptatem. Quaerat maiores, expedita officia, harum libero aspernatur molestias voluptatibus, dolorem nesciunt aliquam impedit non consequatur deleniti labore velit soluta obcaecati incidunt similique voluptas officiis molestiae at? Numquam optio sit sed tempore amet odit facere, at nisi assumenda enim?"
+      "description" : "With permission from Keturah Williams herself, a vast majority of these amazing illustrations were pulled from her instagram and given place in an website suitable for their elegance. With one or two interviews over zoom, titles and descriptions were also given to Keturah's great works, but the interpration of her masterpieces is truly up to the viewers."
     }
   },
   "project03": {
@@ -44,15 +44,15 @@
     ],
     "preview" : {
       "previewPath": "views/preview.html?id=03",
-      "sitePath":"../projects/2020-2024/2022/MultiMediaStuff/indexFolder/index_apple.html",
+      "sitePath":"https://seo.sapiendesigns.com",
       "carouselImgs" : ["../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png"],
       "tags": [],
-      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iure distinctio labore enim ad veritatis id aliquam eaque quod atque facilis impedit ex, dignissimos possimus harum eos omnis! Aliquam exercitationem, eos autem, adipisci corrupti iure voluptate excepturi odio necessitatibus a veniam? Placeat quis, fugit veniam ducimus voluptates deserunt commodi minima sed dolor dolore eius nesciunt reprehenderit, impedit corporis illo, ut tempore voluptatem. Quaerat maiores, expedita officia, harum libero aspernatur molestias voluptatibus, dolorem nesciunt aliquam impedit non consequatur deleniti labore velit soluta obcaecati incidunt similique voluptas officiis molestiae at? Numquam optio sit sed tempore amet odit facere, at nisi assumenda enim?"
+      "description" : "Sapien Designs was the start up company I did my college internship for and is a digital marketing company with many endeavors to promote others. I learned a lot of lessons from my experience there making their websites: what it is like to work for a start up company, working with real world customers, expanding my abilities and pushing myself, and the list goes on and on and on.<br><br>This website is the sub site of their main site, but I believe it would serve better as their main home site. Working with templates and building off what they had before my appearance in their company, I was able to improve the website ten fold!<br><br>I have built several other sites for this company and their clients, but I believe this site does is the best work I've given them that has been made live!"
     }
   },
   "project04": {
     "id" : "04",
-    "name": "Pokemon Cafe Mix<br>(Fan-Art)",
+    "name": "Pokemon<br>Cafe Mix<br>(Fan-Art)",
     "filterCategory": ["2020 - 2024"],
     "yearCreated": 2021,
     "thumbnailPaths": [
@@ -64,7 +64,7 @@
       "sitePath":"../projects/2020-2024/2021/PokemonCafeMix/PCW_menu_items.html",
       "carouselImgs" : ["../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png"],
       "tags": [],
-      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iure distinctio labore enim ad veritatis id aliquam eaque quod atque facilis impedit ex, dignissimos possimus harum eos omnis! Aliquam exercitationem, eos autem, adipisci corrupti iure voluptate excepturi odio necessitatibus a veniam? Placeat quis, fugit veniam ducimus voluptates deserunt commodi minima sed dolor dolore eius nesciunt reprehenderit, impedit corporis illo, ut tempore voluptatem. Quaerat maiores, expedita officia, harum libero aspernatur molestias voluptatibus, dolorem nesciunt aliquam impedit non consequatur deleniti labore velit soluta obcaecati incidunt similique voluptas officiis molestiae at? Numquam optio sit sed tempore amet odit facere, at nisi assumenda enim?"
+      "description" : "Purely made for the sake of fan-art and furthering my learning, this website was made the summer after I first started down the path of web design. Javascript was new to me back then, but I went all out at exploring the possibilities of what I could do with it!<br><br>This page was actually the subpage and not a landing home page, but due to the fact that I didn't have much content for the other links; the landing page was set aside and this page was given more thought and attention. Will I spend time on my work of fan-art to expand it and make it even grander and fully functional? Who knows..."
     }
   },
   "project05": {
@@ -81,7 +81,7 @@
       "sitePath":"../projects/2020-2024/2021/FamilyHistoryBingo/Bingo.html",
       "carouselImgs" : ["../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png"],
       "tags": [],
-      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iure distinctio labore enim ad veritatis id aliquam eaque quod atque facilis impedit ex, dignissimos possimus harum eos omnis! Aliquam exercitationem, eos autem, adipisci corrupti iure voluptate excepturi odio necessitatibus a veniam? Placeat quis, fugit veniam ducimus voluptates deserunt commodi minima sed dolor dolore eius nesciunt reprehenderit, impedit corporis illo, ut tempore voluptatem. Quaerat maiores, expedita officia, harum libero aspernatur molestias voluptatibus, dolorem nesciunt aliquam impedit non consequatur deleniti labore velit soluta obcaecati incidunt similique voluptas officiis molestiae at? Numquam optio sit sed tempore amet odit facere, at nisi assumenda enim?"
+      "description" : "I took a Family History class in college during my Junior year at BYU-I and one of the assignment/projects we had was to share do some kind of family history event and share it with a mass of others. After some thought of how I could apply family history to my college major of web design, I came up with this fun bingo game! The turn out was a great success as I shared it with my church group during a gathered game night! Lots of people enjoyed returning to family trees, learning about their ancestors, and getting Bingos!<br><br>This site was much simpler when I first shared it; consisting only a randomizer that displayed various bingo combos and a section to show which combos were already called out. After testing out on a live audience, I found out having a timer setting would be very beneficial for the game (especially if the randomizer was linked to the timer to show combos in equal timed intervals."
     }
   },
   "project06": {
@@ -98,7 +98,7 @@
       "sitePath":"../projects/2020-2024/2021/PokemonRoShamBo/PokemonRSB.html",
       "carouselImgs" : ["../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png"],
       "tags": [],
-      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iure distinctio labore enim ad veritatis id aliquam eaque quod atque facilis impedit ex, dignissimos possimus harum eos omnis! Aliquam exercitationem, eos autem, adipisci corrupti iure voluptate excepturi odio necessitatibus a veniam? Placeat quis, fugit veniam ducimus voluptates deserunt commodi minima sed dolor dolore eius nesciunt reprehenderit, impedit corporis illo, ut tempore voluptatem. Quaerat maiores, expedita officia, harum libero aspernatur molestias voluptatibus, dolorem nesciunt aliquam impedit non consequatur deleniti labore velit soluta obcaecati incidunt similique voluptas officiis molestiae at? Numquam optio sit sed tempore amet odit facere, at nisi assumenda enim?"
+      "description" :"This was another fan-art, school project. We were learning about APIs (Application Programming Interfaces) and how to integrate content pulled from the vast web. Given free liberty to make whatever project we wanted and push ourselves, I decided to make something in relation to something I've loved my entire childhood: Pokemon<br><br>To put simply, I went full ham on this project: playing around with functions to calculate who won and lost, tinkering with the info pulled from the API, figuring out how to design the UI/UX of the site and game; it was all more fun than work for me.<br><br>Like many other great works of art, expansions could always be made for improvement. Will I take time to create a better version of this simple game? Again, who knows..."
     }
   },
   "project07": {
@@ -115,7 +115,7 @@
       "sitePath":"../projects/2020-2024/2021/YouKnowStudioGhibli/featuredAttraction.html",
       "carouselImgs" : ["../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png"],
       "tags": [],
-      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iure distinctio labore enim ad veritatis id aliquam eaque quod atque facilis impedit ex, dignissimos possimus harum eos omnis! Aliquam exercitationem, eos autem, adipisci corrupti iure voluptate excepturi odio necessitatibus a veniam? Placeat quis, fugit veniam ducimus voluptates deserunt commodi minima sed dolor dolore eius nesciunt reprehenderit, impedit corporis illo, ut tempore voluptatem. Quaerat maiores, expedita officia, harum libero aspernatur molestias voluptatibus, dolorem nesciunt aliquam impedit non consequatur deleniti labore velit soluta obcaecati incidunt similique voluptas officiis molestiae at? Numquam optio sit sed tempore amet odit facere, at nisi assumenda enim?"
+      "description" : "Another fan-art, schoool project involving an API. Prior to this, I made a website with a group of others for a school competition and the website involved a typing game. Figuring I could build off that experience and make something geared towards my interests, I created this fun typing game!<br><br>If I remember correctly, the API I pulled from was lacking a few iconic works from the famous Studio Ghibli. So I took the liberty to find free wall paper artwork of the missing Studio Ghibli works and input it into the typing game. The game is fairly simple yet still fun to play for few brief rounds."
     }
   },
   "project08": {
@@ -132,7 +132,7 @@
       "sitePath":"../projects/2020-2024/2022/ZeldaBazaar/views/index.html",
       "carouselImgs" : ["../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png"],
       "tags": [],
-      "description" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident, iure distinctio labore enim ad veritatis id aliquam eaque quod atque facilis impedit ex, dignissimos possimus harum eos omnis! Aliquam exercitationem, eos autem, adipisci corrupti iure voluptate excepturi odio necessitatibus a veniam? Placeat quis, fugit veniam ducimus voluptates deserunt commodi minima sed dolor dolore eius nesciunt reprehenderit, impedit corporis illo, ut tempore voluptatem. Quaerat maiores, expedita officia, harum libero aspernatur molestias voluptatibus, dolorem nesciunt aliquam impedit non consequatur deleniti labore velit soluta obcaecati incidunt similique voluptas officiis molestiae at? Numquam optio sit sed tempore amet odit facere, at nisi assumenda enim?"
+      "description" : "If you thought I'd get tired of doing API fan-art for school projects during my college experience, you thought wrong. This simulation has got to be one of my most greatest and complex works yet! Coming up from scratch several functions to manipulated the API pulled data, incoporating the info with LocalStorage usage so that game data would be saved, navigating through the API to get various bits of random info; it was no easy task, but in the long run it was pretty fun and well worth it all."
     }
   }
 }

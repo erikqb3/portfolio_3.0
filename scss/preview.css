@@ -146,7 +146,7 @@
     width: 80%;
   }
   section#previewScreen section#side2 div#infoSection h1 {
-    margin: 0;
+    margin: 0 0 0.5rem 0;
     font-family: 'Kalam', cursive;
     font-weight: 700;
   }
