@@ -967,6 +967,7 @@ main#todaysOffers div#sellList_holder table tr > th {
     font-size: 1.25rem;
   }
   main#homeView div#menuBtns div.viewBtn {
+    font-size: 1.75rem;
     text-align: center;
     border-radius: 15px;
     border: 3px solid #ffdb7a;
@@ -1173,6 +1174,7 @@ main#todaysOffers div#sellList_holder table tr > th {
   }
   main#todaysOffers div#infoANDinteraction div#backBtn,
   main#todaysOffers div#infoANDinteraction div#itemBtn {
+    font-size: 1.5rem;
     text-align: center;
     border-radius: 15px;
     border: 3px solid #ffdb7a;

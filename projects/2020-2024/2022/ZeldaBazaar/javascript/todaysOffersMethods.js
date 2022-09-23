@@ -22,15 +22,15 @@ export const todaysOffersMethods = {
     let scrollableList = globalMethods.createElement('ul',"scrollableList");
     let infoANDinteraction = globalMethods.createElement('div',"infoANDinteraction");
     let nav = globalMethods.createElement('div',"nav");
-    let leftArrow = globalMethods.createElement('span',"prevBtn","arrow","","<");
-    let rightArrow = globalMethods.createElement('span',"nextBtn","arrow","",">");
+    let leftArrow = globalMethods.createElement('span',"","arrow","",'<i id="prevBtn" class="fa-solid fa-caret-left"></i>');
+    let rightArrow = globalMethods.createElement('span',"","arrow","",'<i id="nextBtn" class="fa-solid fa-caret-right"></i>');
     let nav_content = globalMethods.createElement('span',"","dummyCode","","");
 
     let pagNavIndex = globalMethods.createElement('span',"pagNavIndex","","",`${parseInt(pagNavStart)}`)
     let pagNavLimit = globalMethods.createElement('span',"pagNavLimit","","",`/${JSON.parse(localStorage.shelf).length}`)
 
 
-    let wallet = globalMethods.createElement('div',"wallet", "display", "", `R ${localStorage.wallet}`);
+    let wallet = globalMethods.createElement('div',"wallet", "display", "", `<i class="fa-brands fa-first-order"></i>  ${localStorage.wallet}`);
     let backBtn = globalMethods.createElement('div',"backBtn","viewBtn","", "Back");
     let itemBtn = globalMethods.createElement('div',"itemBtn","changeBtn","", "Inventory");
     let textBox = globalMethods.createElement('div',"","textBox");
@@ -70,7 +70,7 @@ export const todaysOffersMethods = {
       let img = globalMethods.createElement('img',`${shelfArray[pagNavNumb][product].name}`,"",`${shelfArray[pagNavNumb][product].image}`)
       let item_info = globalMethods.createElement('div',"","item_info");
       let item_name = globalMethods.createElement('h2',"","","",`${shelfArray[pagNavNumb][product].name.toUpperCase()}`);
-      let price = globalMethods.createElement('p',"","price","",`R ${shelfArray[pagNavNumb][product].price}`);
+      let price = globalMethods.createElement('p',"","price","",`<i class="fa-brands fa-first-order"></i> ${shelfArray[pagNavNumb][product].price}`);
       let descript = globalMethods.createElement('p',"","","",`${shelfArray[pagNavNumb][product].description}`)
 
       //STEP3
@@ -139,9 +139,9 @@ export const todaysOffersMethods = {
     quantityInput.setAttribute("type","number");
     quantityInput.setAttribute("min","1");
     quantityInput.setAttribute("value","1");
-    let totalCost = globalMethods.createElement('p',"totalCost","","",`R ${grandchildren[1].innerHTML.substring(2,grandchildren[1].innerHTML.length)}`);
+    let totalCost = globalMethods.createElement('p',"totalCost","","",`<i class="fa-brands fa-first-order"></i> ${grandchildren[1].innerHTML.substring(2,grandchildren[1].innerHTML.length)}`);
     quantityInput.addEventListener("change", ()=> {
-      totalCost.innerHTML = (`R ${grandchildren[1].innerHTML.substring(2,grandchildren[1].innerHTML.length) * quantityInput.value}`);
+      totalCost.innerHTML = (`<i class="fa-brands fa-first-order"></i> ${grandchildren[1].innerHTML.substring(2,grandchildren[1].innerHTML.length) * quantityInput.value}`);
     })
 
 
@@ -318,13 +318,13 @@ export const todaysOffersMethods = {
       quantInput.setAttribute('min',"1");
       quantInput.setAttribute('max',`${quant}`)
       quantInput.setAttribute("value",`${quant}`)
-      let offer_td = globalMethods.createElement('td',"","offer","",`R ${Math.floor(price * multiplier)}`);
+      let offer_td = globalMethods.createElement('td',"","offer","",`<i class="fa-brands fa-first-order"></i> ${Math.floor(price * multiplier)}`);
       quantInput.addEventListener('change',()=> {
         if (quantInput.value > quant) {
           quantInput.value = quant;
         }
         else {
-          offer_td.innerHTML = (`R ${Math.floor(price * multiplier) * quantInput.value}`)
+          offer_td.innerHTML = (`<i class="fa-brands fa-first-order"></i> ${Math.floor(price * multiplier) * quantInput.value}`)
         }
       })
       sellList_tr = globalMethods.appendChildren(sellList_tr, name_td,quantInput,offer_td)

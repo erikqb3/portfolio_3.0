@@ -8,7 +8,7 @@ export const homeViewMethods = {
     let logo = globalMethods.createElement('img',"logo","","../img/Logo.png");
     let homeView = globalMethods.createElement('main',"homeView");
     let menuBtns = globalMethods.createElement('div',"menuBtns");
-    let wallet = globalMethods.createElement('div',"wallet", "display", "", `R ${localStorage.wallet}`);
+    let wallet = globalMethods.createElement('div',"wallet", "display", "", `<i class="fa-brands fa-first-order"></i> ${localStorage.wallet}`);
     let todaysOffers = globalMethods.createElement('div',"todaysOffers","viewBtn","", "Today's Offers");
     let leaveBazaar = globalMethods.createElement('div',"leaveBazaar","viewBtn","", "Leave Bazaar");
     let huntingTrips = globalMethods.createElement('div',"huntingTrips","viewBtn","", "Hunting Trips (<span id='HTripCount'></span>)");

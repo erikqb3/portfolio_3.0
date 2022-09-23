@@ -238,9 +238,8 @@ export const buttonRouter = {
   }
 }
 const dummyViews = {
-  "homeView_github": "https://erikqb3.github.io/WDD330_ErikQBirch_portfolio/FinalProject/views/index.html",
-  "homeView_local": "http://127.0.0.1:5502/projects/2022Projects/ZeldaBazaar/views/index.html",
-  "homeView_portfolio": "https://https://erikqb3.github.io/portfolio_B/projects/2022Projects/ZeldaBazaar/views/index.html"
+  "homeView_local": "http://127.0.0.1:5500/projects/2020-2024/2022/ZeldaBazaar/views/index.html",
+  "homeView_portfolio": "https://erikqb3.github.io/portfolio_3.0/projects/2020-2024/2022/ZeldaBazaar/views/index.html"
 }
 
 
