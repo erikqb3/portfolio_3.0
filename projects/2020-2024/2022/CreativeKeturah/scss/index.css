@@ -161,7 +161,7 @@
     margin-bottom: 1rem;
   }
   html body main section#gallery div#grid article.imgHolder img.tall {
-    width: 100%;
+    width: 125%;
   }
   html body main section#gallery div#grid article.imgHolder img.wide {
     height: 100%;
@@ -205,46 +205,50 @@
         -ms-flex-pack: center;
             justify-content: center;
     width: 100%;
-    margin: 2.5rem auto;
+    height: 100vh;
+    margin: 0rem auto;
   }
-  html body section#popUp div#side1 img {
+  html body section#popUp div#side1 figure {
+    position: relative;
+  }
+  html body section#popUp div#side1 figure div.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    padding: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    -webkit-transition: opacity 0.75s;
+    transition: opacity 0.75s;
+    overflow-y: scroll;
+  }
+  html body section#popUp div#side1 figure img {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 0 auto;
     -webkit-box-shadow: 0 0 2.5rem white;
             box-shadow: 0 0 2.5rem white;
+    -webkit-transition: -webkit-box-shadow 0.75s;
+    transition: -webkit-box-shadow 0.75s;
+    transition: box-shadow 0.75s;
+    transition: box-shadow 0.75s, -webkit-box-shadow 0.75s;
+    width: 100%;
   }
-  html body section#popUp div#side1 img.tall {
-    width: 75%;
+  html body section#popUp div#side1 figure:hover div.overlay {
+    opacity: 1;
+    color: white;
   }
-  html body section#popUp div#side1 img.wide {
+  html body section#popUp div#side1 figure:hover img {
+    -webkit-box-shadow: 0 0 2.5rem black;
+            box-shadow: 0 0 2.5rem black;
+  }
+  html body section#popUp div#side1 figure.tall {
     width: 90%;
   }
-  html body section#popUp div#side2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  html body section#popUp div#side1 figure.wide {
     width: 100%;
-    margin: 2.5rem auto;
-  }
-  html body section#popUp div#side2 div#infoSection {
-    width: 80%;
-    background-color: rgba(255, 255, 255, 0.9);
-    -webkit-box-shadow: 0 0 2.5rem white;
-            box-shadow: 0 0 2.5rem white;
-    border-radius: 10px;
-    padding: 2.5rem;
-  }
-  html body section#popUp div#side2 div#infoSection p#descript {
-    line-height: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
   }
   html body section#popUp.fadeIn {
     -webkit-animation-name: fadeIn;
@@ -308,6 +312,12 @@
     -webkit-column-gap: 2rem;
             column-gap: 2rem;
   }
+  html body section#popUp div#side1 figure div.overlay {
+    overflow: hidden;
+  }
+  html body section#popUp div#side1 figure.tall {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -320,7 +330,6 @@
   }
   html body section#popUp div#side1 {
     width: 50%;
-    margin: 2.5rem auto;
   }
   html body section#popUp div#side1 img {
     display: -webkit-box;
@@ -336,17 +345,6 @@
   }
   html body section#popUp div#side1 img.wide {
     width: 90%;
-  }
-  html body section#popUp div#side2 {
-    width: 50%;
-    margin: 2.5rem auto;
-  }
-  html body section#popUp div#side2 div#infoSection {
-    width: 80%;
-  }
-  html body section#popUp div#side2 div#infoSection p#descript {
-    line-height: 1.5rem;
-    font-family: Arial, Helvetica, sans-serif;
   }
 }
 

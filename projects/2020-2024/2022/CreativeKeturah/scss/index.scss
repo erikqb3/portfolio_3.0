@@ -115,7 +115,7 @@
                 // width: 100%;
                 // height: 100%;
               }
-              img.tall{width: 100%;}
+              img.tall{width: 125%;}
               img.wide{height: 100%;}
             }
             article.imgHolder:hover,
@@ -144,38 +144,65 @@
           align-items:center;
           justify-content:center;
           width: 100%;
-          margin: 2.5rem auto;
-          img{
-            display:flex;
-            margin: 0 auto;
-            box-shadow: 0 0 2.5rem white;
-          }
-          img.tall{
-            width: 75%;
-          }
-          img.wide{
-            width: 90%;
-          }
-        }
-        div#side2{
-          display:flex;
-          align-items:center;
-          justify-content:center;
-          width: 100%;
-          margin: 2.5rem auto;
-          div#infoSection{
-            width: 80%;
-            background-color: rgba(255,255,255,0.9);
-            box-shadow: 0 0 2.5rem white;
-            border-radius: 10px;
-            padding: 2.5rem;
-            h1#title{}
-            p#descript{
-              line-height: 1.5rem;
-              font-family:Arial, Helvetica, sans-serif;
+          height: 100vh;
+          margin: 0rem auto;
+          figure{
+            position:relative;
+            div.overlay{
+              width: 100%;
+              height: 100%;
+              position:absolute;
+              z-index: 2;
+              padding: 2.5rem;
+              background-color: rgba(0,0,0,0.5);
+              opacity: 0;
+              transition: opacity 0.75s;
+              overflow-y: scroll;
+            }
+            img{
+              display:flex;
+              margin: 0 auto;
+              box-shadow: 0 0 2.5rem white;
+              transition: box-shadow 0.75s;
+              width: 100%;
             }
           }
+          figure:hover {
+            div.overlay{
+              opacity: 1;
+              color:white;
+            }
+            img{
+              box-shadow: 0 0 2.5rem black;
+            }
+          }
+          
+          figure.tall{
+            width: 90%;
+          }
+          figure.wide{
+            width: 100%;
+          }
         }
+        // div#side2{
+        //   display:flex;
+        //   align-items:center;
+        //   justify-content:center;
+        //   width: 100%;
+        //   margin: 2.5rem auto;
+        //   div#infoSection{
+        //     width: 80%;
+        //     background-color: rgba(255,255,255,0.9);
+        //     box-shadow: 0 0 2.5rem white;
+        //     border-radius: 10px;
+        //     padding: 2.5rem;
+        //     h1#title{}
+        //     p#descript{
+        //       line-height: 1.5rem;
+        //       font-family:Arial, Helvetica, sans-serif;
+        //     }
+        //   }
+        // }
       }
       section#popUp.fadeIn{
         animation-name:fadeIn;
@@ -252,6 +279,29 @@
           }
         }
       }
+      section#popUp{
+        div#side1{
+          figure{
+            div.overlay{
+              overflow:hidden;
+            }
+            img{
+            }
+          }
+          figure:hover {
+            div.overlay{
+            }
+            img{
+            }
+          }
+          
+          figure.tall{
+            width: 50%;
+          }
+          figure.wide{
+          }
+        }
+      }
     }
   }
 }
@@ -263,7 +313,7 @@
         overflow:initial;
         div#side1{
           width: 50%;
-          margin: 2.5rem auto;
+          // margin: 2.5rem auto;
           img{
             display:flex;
             margin: 0 auto;
@@ -276,18 +326,18 @@
             width: 90%;
           }
         }
-        div#side2{
-          width: 50%;
-          margin: 2.5rem auto;
-          div#infoSection{
-            width: 80%;
-            h1#title{}
-            p#descript{
-              line-height: 1.5rem;
-              font-family:Arial, Helvetica, sans-serif;
-            }
-          }
-        }
+        // div#side2{
+        //   width: 50%;
+        //   margin: 2.5rem auto;
+        //   div#infoSection{
+        //     width: 80%;
+        //     h1#title{}
+        //     p#descript{
+        //       line-height: 1.5rem;
+        //       font-family:Arial, Helvetica, sans-serif;
+        //     }
+        //   }
+        // }
       }
     }
   }

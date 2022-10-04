@@ -53,6 +53,8 @@ const establishHTML = {
     imgHolder,
     popUp = helperFunctions.generateElement('section',"popUp"),
     side1 = helperFunctions.generateElement('div',"side1"),
+    figure = helperFunctions.generateElement('figure'),
+    overlay = helperFunctions.generateElement('div',"","overlay"),
     img = helperFunctions.generateElement('img',`${imgData.title}_popImg`,"","",imgData.path),
     side2 = helperFunctions.generateElement('div',"side2"),
     infoSection = helperFunctions.generateElement('div',"infoSection"),
@@ -60,16 +62,20 @@ const establishHTML = {
     descript = helperFunctions.generateElement('p',"descript","",imgData.description))
     {
       if (imgData.type == "tall"){
-        img.classList.add("tall");
+        figure.classList.add("tall");
       }
       else {
-        img.classList.add('wide')
+        figure.classList.add('wide')
       }
       console.log(imgData,imgHolder);
-      side1.appendChild(img);
-      infoSection = helperFunctions.appendChildren(infoSection, title,descript)
-      side2.appendChild(infoSection);
-      popUp = helperFunctions.appendChildren(popUp, side1,side2);
+      console.log(title, descript);
+      side1 = helperFunctions.nestChildren(side1,figure,overlay);
+      overlay = helperFunctions.appendChildren(overlay, title, descript);
+      figure.appendChild(img);
+      // infoSection = helperFunctions.appendChildren(infoSection, title,descript)
+      // side2.appendChild(infoSection);
+      // popUp = helperFunctions.appendChildren(popUp, side1,side2);
+      popUp.appendChild(side1);
       popUp.classList.add('fadeIn');
       popUp.addEventListener('click',(e)=>{
         popUp.remove();
