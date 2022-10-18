@@ -82,7 +82,7 @@ export const establishHTML = {
     filterSettings_holder = helperFunctions.generateElement('div','filterSettings_holder'),
     filterSettings_list = helperFunctions.generateElement('ul',"nav"),
     // listOptions = ['Portfolio', 'Resume', 'Contact']
-    listOptions = ['View ALL', 'Site Type', 'Year', 'Reviews', 'Resume', 'Contact']
+    listOptions = ['View ALL', 'Site Type', 'Year', 'Resume', 'Contact']
   ) {
     /**
      * STEP1: give Hamburger Menu Button an event listener
