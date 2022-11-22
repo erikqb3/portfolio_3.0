@@ -4,7 +4,7 @@ import { sharedHTML,helperFunctions } from "../js/index.js";
 const establishHTML = {
 resumeHTML : function(
     main = document.querySelector('main'),
-    resumeLink = helperFunctions.generateElement("a","resumeLink","","","../resources/ErikQ.Birch_standardResume.pdf"),
+    resumeLink = helperFunctions.generateElement("a","resumeLink","","","../resources/ErikQ.Birch(resume4.0).pdf"),
     resumeImg = helperFunctions.generateElement('img',"resumeImg","","","../resources/img/2022Resume.png"),
     returnBtn = helperFunctions.generateElement('a',"returnBtn","button","Return","../index.html"),
   ){

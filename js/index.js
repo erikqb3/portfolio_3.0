@@ -9,7 +9,7 @@ export const sharedHTML = {
     filterSettings_holder = helperFunctions.generateElement('div','filterSettings_holder'),
     filterSettings_list = helperFunctions.generateElement('ul',"nav"),
     // listOptions = ['Portfolio', 'Resume', 'Contact']
-    listOptions = ['Portfolio', 'Reviews', 'Resume', 'Contact']
+    listOptions = ['Portfolio', 'Resume', 'Contact']
   ) {
     /**
      * STEP1: give Hamburger Menu Button an event listener
@@ -138,7 +138,7 @@ export const addAction = {
               break;
             case "Resume":
               i.addEventListener('click',(e)=>{
-                window.location.href = ("../views/resume.html");
+                window.location.href = ("/views/resume.html");
               })
               break;
             case "Contact":
