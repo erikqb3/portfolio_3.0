@@ -134,5 +134,22 @@
       "tags": [],
       "description" : "If you thought I'd get tired of doing API fan-art for school projects during my college experience, you thought wrong. This simulation has got to be one of my most greatest and complex works yet! Coming up from scratch several functions to manipulated the API pulled data, incoporating the info with LocalStorage usage so that game data would be saved, navigating through the API to get various bits of random info; it was no easy task, but in the long run it was pretty fun and well worth it all."
     }
+  },
+  "project09": {
+    "id" : "09",
+    "name": "Triple A Web Studios",
+    "filterCategory": ["For Academics","2020 - 2024"],
+    "yearCreated": "",
+    "thumbnailPaths": [
+      "resources/img/Brothers.png",
+      "resources/img/Brothers.png.png"
+    ],
+    "preview" : {
+      "previewPath": "views/preview.html?id=08",
+      "sitePath":"../projects/2020-2024/2022/TripleA/LongFormContent/index.html",
+      "carouselImgs" : ["../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png","../resources/img/Brothers.png"],
+      "tags": [],
+      "description" : "Holding onto this for now"
+    }
   }
 }
