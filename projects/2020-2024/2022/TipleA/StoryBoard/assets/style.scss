@@ -1,0 +1,107 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+html{
+  background-color:white;
+}
+body{
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,0,10,1) 75%);
+}
+
+main{
+  margin-top:5rem;
+}
+
+
+header{
+  width: 100%;
+  background-color: white;
+  height: 5rem;
+  display:flex;
+  justify-content:space-between;
+  border-bottom: 1px solid rgba(20,20,20,0.5);
+  position:fixed;
+  transition: top 0.75s;
+  top:0;
+  z-index:2;
+  .div-LogoHolder{
+    width: 20%;
+    height: 5rem;
+    img{
+      height: 5rem;
+    }
+  }
+  nav{
+    width:55%;
+    height: 100%;
+    ul{
+      display:flex;
+      list-style:none;
+      width: 100%;
+      height: 100%;
+      // justify-content: space-around;
+      li{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items:center;
+        a:link,
+        a:visited{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items:center;
+          justify-content: center;
+          text-align:center;
+          text-decoration:none;
+          color:inherit;
+          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+      }
+      li.current{
+        background-color:rgb(20,20,20);
+        color:white;
+      }
+      li:nth-of-type(1):hover,
+      li:nth-of-type(1):active{
+        color:rgb(0,125,0);
+        font-weight: bolder;
+      }
+      li:nth-of-type(2):hover,
+      li:nth-of-type(2):active{
+        color:red;
+        font-weight: bolder;
+      }
+      li:nth-of-type(3):hover,
+      li:nth-of-type(3):active{
+        color:rgb(0,75,255);
+        font-weight: bolder;
+      }
+      li:nth-of-type(4):hover,
+      li:nth-of-type(4):active{
+        color:rgb(0,125,0);
+        font-weight: bolder;
+      }
+      li:nth-of-type(5):hover,
+      li:nth-of-type(5):active{
+        color:red;
+        font-weight: bolder;
+      }
+      li:nth-of-type(6):hover,
+      li:nth-of-type(6):active{
+        color:rgb(0,75,255);
+        font-weight: bolder;
+      }
+      li.current:hover,
+      li.current:active{
+        color:white;
+        font-weight: initial;
+        // font-weight: bolder;
+      }
+    }
+  }
+}

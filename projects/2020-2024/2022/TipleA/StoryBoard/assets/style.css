@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: white;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(0, 0, 10) 75%);
+}
+
+main {
+  margin-top: 5rem;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(20, 20, 20, 0.5);
+  position: fixed;
+  transition: top 0.75s;
+  top: 0;
+  z-index: 2;
+}
+header .div-LogoHolder {
+  width: 20%;
+  height: 5rem;
+}
+header .div-LogoHolder img {
+  height: 5rem;
+}
+header nav {
+  width: 55%;
+  height: 100%;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  height: 100%;
+}
+header nav ul li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+header nav ul li a:link,
+header nav ul li a:visited {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header nav ul li.current {
+  background-color: rgb(20, 20, 20);
+  color: white;
+}
+header nav ul li:nth-of-type(1):hover,
+header nav ul li:nth-of-type(1):active {
+  color: rgb(0, 125, 0);
+  font-weight: bolder;
+}
+header nav ul li:nth-of-type(2):hover,
+header nav ul li:nth-of-type(2):active {
+  color: red;
+  font-weight: bolder;
+}
+header nav ul li:nth-of-type(3):hover,
+header nav ul li:nth-of-type(3):active {
+  color: rgb(0, 75, 255);
+  font-weight: bolder;
+}
+header nav ul li:nth-of-type(4):hover,
+header nav ul li:nth-of-type(4):active {
+  color: rgb(0, 125, 0);
+  font-weight: bolder;
+}
+header nav ul li:nth-of-type(5):hover,
+header nav ul li:nth-of-type(5):active {
+  color: red;
+  font-weight: bolder;
+}
+header nav ul li:nth-of-type(6):hover,
+header nav ul li:nth-of-type(6):active {
+  color: rgb(0, 75, 255);
+  font-weight: bolder;
+}
+header nav ul li.current:hover,
+header nav ul li.current:active {
+  color: white;
+  font-weight: initial;
+}/*# sourceMappingURL=style.css.map */

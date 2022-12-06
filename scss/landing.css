@@ -2,8 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media only screen and (min-width: 0px) {
@@ -18,22 +17,12 @@
     top: 0;
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
-    -webkit-transition: opacity 0.75s;
     transition: opacity 0.75s;
   }
   html body div#disclaimerPopUp p {
@@ -41,25 +30,20 @@
   }
   html body header {
     position: initial;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 5rem;
     top: 0;
     width: 100%;
     background-color: white;
-    color: #000855;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    color: rgb(0, 8, 85);
+    align-items: center;
     z-index: 3;
-    -webkit-transition: opacity 0.75s;
     transition: opacity 0.75s;
   }
   html body header h1 {
     font-size: 2rem;
     margin: 0 0 0 5%;
-    font-family: 'Lucida Handwriting', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Handwriting", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
   html body header img#logo {
     height: 5rem;
@@ -70,7 +54,7 @@
     display: none;
   }
   html body header div#hamBtn {
-    color: #000855;
+    color: rgb(0, 8, 85);
     font-size: 1.5rem;
     margin: 0 5% 0 auto;
     font-weight: bold;
@@ -88,7 +72,7 @@
     position: fixed;
     overflow-y: scroll;
     z-index: 3;
-    background-color: #000855;
+    background-color: rgb(0, 8, 85);
     color: white;
     right: 0;
     top: 0;
@@ -108,7 +92,7 @@
     cursor: pointer;
   }
   html body header div#filterSettings_holder ul li:hover {
-    background-color: #01052a;
+    background-color: rgb(1, 5, 42);
   }
   html body header div#filterSettings_void.visible {
     width: 0vw;
@@ -146,28 +130,22 @@
   }
   html body header div#filterSettings_holder.visible ul#nav li.dropDwn_holder ul.showList {
     display: block;
-    background-color: #01052a;
+    background-color: rgb(1, 5, 42);
   }
   html body header div#filterSettings_holder.visible ul#nav li.dropDwn_holder ul.showList li.filter {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     height: 4rem;
     padding: 0;
     font-size: 1.5rem;
   }
   html body header div#filterSettings_holder.visible ul#nav li.dropDwn_holder ul.showList li.filter:hover,
-  html body header div#filterSettings_holder.visible ul#nav li.dropDwn_holder ul.showList li.filter:active {
-    background-color: #323232;
+html body header div#filterSettings_holder.visible ul#nav li.dropDwn_holder ul.showList li.filter:active {
+    background-color: rgb(50, 50, 50);
   }
   html body header div#filterSettings_holder.visible ul#nav li:hover {
-    background-color: #01052a;
+    background-color: rgb(1, 5, 42);
   }
   @-webkit-keyframes unfold {
     from {
@@ -244,15 +222,9 @@
     text-shadow: 2.5px 2.5px 5px black;
     margin-bottom: 1rem;
     overflow: hidden;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   html body main section#hero div#infoHolder {
     position: absolute;
@@ -260,25 +232,16 @@
     background-color: rgba(0, 0, 0, 0.5);
     height: 20rem;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   html body main section#hero div#infoHolder h2 {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
   }
   html body main section#hero div#infoHolder p {
     width: 80%;
@@ -298,12 +261,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
   }
   html body main div#mainGrid article.projectHolder {
     display: inline-block;
@@ -324,15 +284,9 @@
     height: 100%;
     position: absolute;
     top: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     align-items: center;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.75);
@@ -340,7 +294,7 @@
     font-weight: bold;
     text-shadow: 0px 0px 5px white;
     -webkit-text-stroke: 0.5px black;
-    font-family: 'Dancing Script', cursive;
+    font-family: "Dancing Script", cursive;
     font-weight: 700;
   }
   html body main div#mainGrid article.projectHolder div.contentHolder img {
@@ -352,42 +306,32 @@
     -o-object-position: center;
        object-position: center;
     opacity: 1;
-    -webkit-transition: opacity 0.75s;
     transition: opacity 0.75s;
   }
   html body main div#mainGrid article.projectHolder div.contentHolder img[data-src] {
     opacity: 0;
   }
   html body main div#mainGrid article.projectHolder div.contentHolder:hover,
-  html body main div#mainGrid article.projectHolder div.contentHolder:active {
-    -webkit-transform: scale(1.25);
-            transform: scale(1.25);
-    -webkit-transition: 0.35s ease;
+html body main div#mainGrid article.projectHolder div.contentHolder:active {
+    transform: scale(1.25);
     transition: 0.35s ease;
   }
   html body main div#mainGrid article.projectHolder div.contentHolder:hover div.infoOverlay,
-  html body main div#mainGrid article.projectHolder div.contentHolder:active div.infoOverlay {
+html body main div#mainGrid article.projectHolder div.contentHolder:active div.infoOverlay {
     top: 0%;
-    -webkit-transition: 0.35s ease;
     transition: 0.35s ease;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(4n + 1) {
-    -ms-grid-column: 1;
-    -ms-grid-column-span: 2;
-    grid-column: 1 /span 2;
+  html body main div#mainGrid article.projectHolder:nth-child(4n+1) {
+    grid-column: 1/span 2;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(4n + 2) {
-    -ms-grid-column: 3;
+  html body main div#mainGrid article.projectHolder:nth-child(4n+2) {
     grid-column: 3;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(4n + 3) {
-    -ms-grid-column: 1;
+  html body main div#mainGrid article.projectHolder:nth-child(4n+3) {
     grid-column: 1;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(4n + 4) {
-    -ms-grid-column: 2;
-    -ms-grid-column-span: 2;
-    grid-column: 2 / span 2;
+  html body main div#mainGrid article.projectHolder:nth-child(4n+4) {
+    grid-column: 2/span 2;
   }
   html body footer {
     position: absolute;
@@ -398,7 +342,6 @@
     background-color: #3a3a3a;
   }
 }
-
 @media only screen and (min-width: 760px) {
   html body header {
     height: 5rem;
@@ -411,7 +354,6 @@
     margin: 0 2.5% 0 auto;
   }
   html body header div#filterSettings_holder {
-    -webkit-transition: width 0.25s linear;
     transition: width 0.25s linear;
   }
   html body header div#filterSettings_holder ul li {
@@ -447,10 +389,8 @@
     height: initial;
   }
   html body main div#mainGrid {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 1fr;
   }
   html body main div#mainGrid article.projectHolder {
@@ -460,24 +400,19 @@
   html body main div#mainGrid article.projectHolder div.infoOverlay {
     font-size: 2rem;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(3n + 1) {
-    -ms-grid-column: 1;
+  html body main div#mainGrid article.projectHolder:nth-child(3n+1) {
     grid-column: 1;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(3n + 2) {
-    -ms-grid-column: 2;
+  html body main div#mainGrid article.projectHolder:nth-child(3n+2) {
     grid-column: 2;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(3n + 3) {
-    -ms-grid-column: 3;
+  html body main div#mainGrid article.projectHolder:nth-child(3n+3) {
     grid-column: 3;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(3n + 4) {
-    -ms-grid-column: 1;
+  html body main div#mainGrid article.projectHolder:nth-child(3n+4) {
     grid-column: 1;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   html body header {
     height: 5rem;
@@ -492,8 +427,6 @@
     margin: 0 0 0 0%;
   }
   html body header p {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin: 0 auto 0 1%;
     font-size: 1.5rem;
@@ -509,47 +442,28 @@
     overflow: initial;
   }
   html body header div#filterSettings_holder ul#nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     height: 5rem;
   }
   html body header div#filterSettings_holder ul#nav li {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 0;
     font-size: 1.25rem;
     width: 100%;
     height: 5rem;
   }
   html body header div#filterSettings_holder ul#nav li div#ST_dropDwn_Btn,
-  html body header div#filterSettings_holder ul#nav li div#YC_dropDwn_Btn {
+html body header div#filterSettings_holder ul#nav li div#YC_dropDwn_Btn {
     height: 5rem;
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   html body header div#filterSettings_holder ul#nav li ul {
     display: none;
@@ -564,31 +478,22 @@
     height: 3rem;
     line-height: 1.5rem;
     font-size: 1rem;
-    background-color: #01052a;
+    background-color: rgb(1, 5, 42);
     color: white;
   }
   html body header div#filterSettings_holder ul#nav li ul li:hover {
     background-color: #3a3a3a;
   }
   html body header div#filterSettings_holder ul#nav li.dropDwn_holder:hover {
-    -ms-flex-item-align: start;
-        -ms-grid-row-align: start;
-        align-self: start;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: start;
+    align-self: start;
+    justify-content: start;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
   html body header div#filterSettings_holder ul#nav li.dropDwn_holder:hover ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
   }
   html body header div#filterSettings_holder ul#nav li.dropDwn_holder:hover ul li {
@@ -620,26 +525,19 @@
     height: initial;
   }
   html body main div#mainGrid {
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    -ms-grid-rows: 1fr;
-        grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(4n + 1) {
-    -ms-grid-column: 1;
+  html body main div#mainGrid article.projectHolder:nth-child(4n+1) {
     grid-column: 1;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(4n + 2) {
-    -ms-grid-column: 2;
+  html body main div#mainGrid article.projectHolder:nth-child(4n+2) {
     grid-column: 2;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(4n + 3) {
-    -ms-grid-column: 3;
+  html body main div#mainGrid article.projectHolder:nth-child(4n+3) {
     grid-column: 3;
   }
-  html body main div#mainGrid article.projectHolder:nth-child(4n + 4) {
-    -ms-grid-column: 4;
+  html body main div#mainGrid article.projectHolder:nth-child(4n+4) {
     grid-column: 4;
   }
-}
-/*# sourceMappingURL=landing.css.map */
+}/*# sourceMappingURL=landing.css.map */

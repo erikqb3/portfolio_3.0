@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: 0;
-          box-sizing: 0;
+  box-sizing: 0;
 }
 
 body section#sideMenu {
@@ -10,49 +9,33 @@ body section#sideMenu {
   top: 0;
   width: 100%;
   height: 100vh;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 30% 70%;
-      grid-template-columns: 30% 70%;
-  -ms-grid-rows: 1fr;
-      grid-template-rows: 1fr;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr;
 }
-
 body section#sideMenu nav#sideNav {
-  -ms-grid-column: 1;
   grid-column: 1;
-  -ms-grid-row: 1;
   grid-row: 1;
   z-index: 2;
-  background-color: #191919;
+  background-color: rgb(25, 25, 25);
   height: 100%;
   width: 100%;
   position: relative;
   left: -30vw;
-  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-
 body section#sideMenu nav#sideNav div#menu-btn {
   position: absolute;
   right: -100px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 80px;
   height: 80px;
   border-radius: 5px;
   cursor: pointer;
-  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-
 body section#sideMenu nav#sideNav div#menu-btn .burger,
 body section#sideMenu nav#sideNav div#menu-btn .burger::before,
 body section#sideMenu nav#sideNav div#menu-btn .burger::after {
@@ -60,135 +43,87 @@ body section#sideMenu nav#sideNav div#menu-btn .burger::after {
   height: 6px;
   background-color: black;
   border-radius: 5px;
-  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-
 body section#sideMenu nav#sideNav div#menu-btn .burger::before,
 body section#sideMenu nav#sideNav div#menu-btn .burger::after {
   content: "";
   position: absolute;
 }
-
 body section#sideMenu nav#sideNav div#menu-btn .burger::before {
-  -webkit-transform: translateY(-16px);
-          transform: translateY(-16px);
+  transform: translateY(-16px);
 }
-
 body section#sideMenu nav#sideNav div#menu-btn .burger::after {
-  -webkit-transform: translateY(16px);
-          transform: translateY(16px);
+  transform: translateY(16px);
 }
-
 body section#sideMenu nav#sideNav div#menu-btn:hover .burger,
 body section#sideMenu nav#sideNav div#menu-btn:hover .burger::before,
 body section#sideMenu nav#sideNav div#menu-btn:hover .burger::after {
-  -webkit-box-shadow: 0 2px 5px rgba(0, 255, 0, 0.5);
-          box-shadow: 0 2px 5px rgba(0, 255, 0, 0.5);
+  box-shadow: 0 2px 5px rgba(0, 255, 0, 0.5);
 }
-
 body section#sideMenu nav#sideNav ul {
   width: 100%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: top;
-      -ms-flex-pack: top;
-          justify-content: top;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
   list-style: none;
 }
-
 body section#sideMenu nav#sideNav ul li {
   margin: 15px 0;
 }
-
 body section#sideMenu nav#sideNav ul li a:link,
 body section#sideMenu nav#sideNav ul li a:visited {
   color: white;
   text-decoration: none;
   font-size: 2.5rem;
 }
-
 body section#sideMenu nav#sideNav ul li:nth-of-type(1) {
   margin-top: 125px;
 }
-
 body section#sideMenu div#void {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 2;
   grid-column: 1/3;
-  -ms-grid-row: 1;
   grid-row: 1;
   width: 100%;
   height: 100%;
   background-color: rgba(25, 25, 25, 0.75);
   position: relative;
   left: -100vw;
-  -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out;
 }
-
 body section#sideMenu.open nav#sideNav {
   left: 0;
 }
-
 body section#sideMenu.open nav#sideNav #menu-btn {
   right: 25px;
 }
-
 body section#sideMenu.open nav#sideNav #menu-btn .burger,
 body section#sideMenu.open nav#sideNav #menu-btn .burger::before,
 body section#sideMenu.open nav#sideNav #menu-btn .burger::after {
   background-color: white;
 }
-
 body section#sideMenu.open nav#sideNav #menu-btn .burger {
-  -webkit-transform: translateX(-50px);
-          transform: translateX(-50px);
+  transform: translateX(-50px);
   background: transparent;
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
-
 body section#sideMenu.open nav#sideNav #menu-btn .burger::before {
-  -webkit-transform: rotate(45deg) translate(35px, -35px);
-          transform: rotate(45deg) translate(35px, -35px);
+  transform: rotate(45deg) translate(35px, -35px);
 }
-
 body section#sideMenu.open nav#sideNav #menu-btn .burger::after {
-  -webkit-transform: rotate(-45deg) translate(35px, 35px);
-          transform: rotate(-45deg) translate(35px, 35px);
+  transform: rotate(-45deg) translate(35px, 35px);
 }
-
 body section#sideMenu.open nav#sideNav #menu-btn:hover .burger {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   cursor: initial;
 }
-
 body section#sideMenu.open div#void {
   left: 0;
 }
-
 body main {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-/*# sourceMappingURL=index.css.map */
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=index.css.map */

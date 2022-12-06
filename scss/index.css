@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @media only screen and (min-width: 0px) {
@@ -11,19 +10,14 @@
   }
   html body header {
     position: initial;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     height: 5rem;
     top: 0;
     width: 100%;
-    background-color: #000855;
+    background-color: rgb(0, 8, 85);
     color: white;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     z-index: 3;
-    -webkit-transition: opacity 0.75s;
     transition: opacity 0.75s;
   }
   html body header img#logo {
@@ -54,7 +48,7 @@
     position: fixed;
     overflow-y: scroll;
     z-index: 3;
-    background-color: #000855;
+    background-color: rgb(0, 8, 85);
     color: white;
     right: 0;
     top: 0;
@@ -74,7 +68,7 @@
     cursor: pointer;
   }
   html body header div#filterSettings_holder ul li:hover {
-    background-color: #01052a;
+    background-color: rgb(1, 5, 42);
   }
   html body header div#filterSettings_void.visible {
     width: 0vw;
@@ -169,18 +163,12 @@
     background-color: #3a3a3a;
   }
   html body a.button:link,
-  html body a.button:visited {
-    display: -webkit-box;
-    display: -ms-flexbox;
+html body a.button:visited {
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     color: white;
-    background-color: #000855;
+    background-color: rgb(0, 8, 85);
     text-decoration: none;
     width: 7.5rem;
     padding: 0.5rem 1rem;
@@ -188,11 +176,10 @@
     border-radius: 5px;
   }
   html body a.button:hover,
-  html body a.button:active {
+html body a.button:active {
     background-color: rgba(0, 8, 85, 0.5);
   }
 }
-
 @media only screen and (min-width: 768px) {
   html body header {
     height: 5rem;
@@ -205,7 +192,6 @@
     margin: 0 2.5% 0 auto;
   }
   html body header div#filterSettings_holder {
-    -webkit-transition: width 0.25s linear;
     transition: width 0.25s linear;
   }
   html body header div#filterSettings_holder ul li {
@@ -215,22 +201,19 @@
     margin-top: 0rem;
   }
 }
-
 @media only screen and (min-width: 992px) {
   html body header {
     height: 5rem;
     top: 0;
     width: 100%;
     background-color: white;
-    color: #000855;
+    color: rgb(0, 8, 85);
   }
   html body header img#logo {
     height: 5rem;
     content: url("../resources/img/EQB_logo.jpg");
   }
   html body header p {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     margin: 0 auto 0 1%;
     font-size: 1.5rem;
@@ -246,13 +229,9 @@
     overflow: initial;
   }
   html body header div#filterSettings_holder ul#nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     height: 5rem;
   }
   html body header div#filterSettings_holder ul#nav li {
@@ -265,7 +244,7 @@
     height: fit-content;
   }
   html body header div#filterSettings_holder ul#nav li div#ST_dropDwn_Btn,
-  html body header div#filterSettings_holder ul#nav li div#YC_dropDwn_Btn {
+html body header div#filterSettings_holder ul#nav li div#YC_dropDwn_Btn {
     line-height: 5rem;
   }
   html body header div#filterSettings_holder ul#nav li ul {
@@ -277,7 +256,7 @@
     margin: 0;
     line-height: 1.5rem;
     font-size: 1rem;
-    background-color: #01052a;
+    background-color: rgb(1, 5, 42);
     color: white;
   }
   html body header div#filterSettings_holder ul#nav li ul li:hover {
@@ -290,8 +269,8 @@
     height: 20rem;
   }
   html body header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(2),
-  html body header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(3),
-  html body header div#filterSettings_holder ul#nav li.dropDwn_holder:hover > div {
+html body header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(3),
+html body header div#filterSettings_holder ul#nav li.dropDwn_holder:hover > div {
     padding: 0;
   }
   html body header div#filterSettings_holder ul#nav li.dropDwn_holder:nth-of-type(2):hover > div {
@@ -303,5 +282,4 @@
   html body header div#filterSettings_holder ul#nav li.dropDwn_holder:hover > ul {
     display: block;
   }
-}
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */

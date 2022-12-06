@@ -11,35 +11,20 @@
     top: 0;
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 100%;
-    -webkit-transition: opacity 0.75s;
     transition: opacity 0.75s;
   }
   body div#disclaimerPopUp p {
     text-align: center;
   }
   section#previewScreen {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     z-index: 3;
     width: 100%;
     height: 100%;
@@ -53,8 +38,6 @@
   }
   section#previewScreen section#side1 div#carousel div#slidesHolder {
     height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   section#previewScreen section#side1 div#carousel div#slidesHolder article.slide {
@@ -68,18 +51,11 @@
     position: absolute;
     top: 50%;
     left: 0;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-between;
+    align-items: center;
   }
   section#previewScreen section#side1 div#carousel div#slideControls button.shiftBtn {
     background: transparent;
@@ -98,76 +74,52 @@
     outline: none;
   }
   section#previewScreen section#side1 div#carousel div#slideControls button.shiftBtn:hover,
-  section#previewScreen section#side1 div#carousel div#slideControls button.shiftBtn:active {
+section#previewScreen section#side1 div#carousel div#slideControls button.shiftBtn:active {
     background-color: rgba(0, 8, 85, 0.5);
     border-radius: 5px;
   }
   section#previewScreen section#side1 div#buttonNav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 60%;
     margin: 1rem auto 1rem auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    color: #000855;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(0, 8, 85);
   }
   section#previewScreen section#side1 div#buttonNav div.currentBtn {
     color: rgba(0, 8, 85, 0.5);
   }
   section#previewScreen section#side1 div#buttonNav div.slideBtn:hover,
-  section#previewScreen section#side1 div#buttonNav div.slideBtn:active {
+section#previewScreen section#side1 div#buttonNav div.slideBtn:active {
     color: rgba(0, 8, 85, 0.5);
   }
   section#previewScreen section#side2 {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   section#previewScreen section#side2 div#infoSection {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin: 0 auto 5rem auto;
     width: 80%;
   }
   section#previewScreen section#side2 div#infoSection h1 {
     margin: 0 0 0.5rem 0;
-    font-family: 'Kalam', cursive;
+    font-family: "Kalam", cursive;
     font-weight: 700;
   }
   section#previewScreen section#side2 div#infoSection p {
     margin-top: 1rem;
   }
   section#previewScreen section#side2 div#infoSection div#previewBtnHolder {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     width: 100%;
     margin: 2.5rem auto;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
   }
 }
-
 @media only screen and (min-width: 768px) {
   section#previewScreen section#side1 div#carousel {
     height: 400px;
@@ -186,7 +138,6 @@
     width: 45%;
   }
 }
-
 @media only screen and (min-width: 992px) {
   section#previewScreen section#side1 div#carousel {
     height: 500px;
@@ -214,20 +165,14 @@
     font-size: 2rem;
   }
   section#previewScreen section#side2 div#infoSection div#previewBtnHolder a#viewBtn,
-  section#previewScreen section#side2 div#infoSection div#previewBtnHolder a#returnBtn {
+section#previewScreen section#side2 div#infoSection div#previewBtnHolder a#returnBtn {
     width: 10rem;
   }
 }
-
 @media only screen and (min-width: 1200px) {
   section#previewScreen {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: row;
+    align-items: center;
     width: 90%;
     margin: 2.5rem auto;
   }
@@ -245,15 +190,9 @@
   }
   section#previewScreen section#side2 {
     width: 50%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     margin: 0;
   }
   section#previewScreen section#side2 div#infoSection {
@@ -274,8 +213,7 @@
     font-size: 1.25rem;
   }
   section#previewScreen section#side2 div#infoSection div#previewBtnHolder a#viewBtn,
-  section#previewScreen section#side2 div#infoSection div#previewBtnHolder a#returnBtn {
+section#previewScreen section#side2 div#infoSection div#previewBtnHolder a#returnBtn {
     width: 10rem;
   }
-}
-/*# sourceMappingURL=preview.css.map */
+}/*# sourceMappingURL=preview.css.map */
