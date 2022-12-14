@@ -115,6 +115,9 @@
   html body main section#gallery div#grid article.imgHolder img.tall {
     width: 125%;
   }
+  html body main section#gallery div#grid article.imgHolder img.square {
+    width: 125%;
+  }
   html body main section#gallery div#grid article.imgHolder img.wide {
     height: 100%;
   }
@@ -169,15 +172,11 @@ html body main section#gallery div#grid article.imgHolder:active div.imgOverlay 
     transition: box-shadow 0.75s;
     width: 100%;
   }
-  html body section#popUp div#side1 figure:hover div.overlay {
-    opacity: 1;
-    color: white;
-  }
-  html body section#popUp div#side1 figure:hover img {
-    box-shadow: 0 0 2.5rem black;
-  }
   html body section#popUp div#side1 figure.tall {
     width: 90%;
+  }
+  html body section#popUp div#side1 figure.square {
+    width: 100%;
   }
   html body section#popUp div#side1 figure.wide {
     width: 100%;
@@ -265,6 +264,9 @@ html body main section#gallery div#grid article.imgHolder:active div.imgOverlay 
     height: fit-content;
   }
   html body section#popUp div#side1 img.tall {
+    width: 60%;
+  }
+  html body section#popUp div#side1 img.square {
     width: 60%;
   }
   html body section#popUp div#side1 img.wide {

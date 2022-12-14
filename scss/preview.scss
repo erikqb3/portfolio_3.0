@@ -73,6 +73,7 @@
             color:white;
             width: fit-content;
             height:fit-content;
+            transition: background-color 0.35s;
           }
           button.shiftBtn:focus {
             outline:none;
@@ -91,8 +92,11 @@
         justify-content:space-between;
         align-items:center;
         color:rgba(0,8,85,1);
+        div{
+          transition: color 0.35s;
+        }
         div.currentBtn {
-          color:rgba(0,8,85,0.5)
+          color:rgba(0,8,85,0.5);
         }
 
       }
@@ -224,6 +228,7 @@
           font-size: 2rem;
           a#viewBtn,
           a#returnBtn {
+            transition: all 0.35s;
             width: 10rem;
           }
         }

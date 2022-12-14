@@ -21,6 +21,17 @@ export const establishHTML = {
 
 
   },
+  favicon: function(
+    favicon = document.querySelector("link[rel~='icon']")
+  ){ 
+    console.log("favicon",favicon);
+    if (!favicon) {
+        favicon = document.createElement('link');
+        favicon.rel = 'icon';
+        document.getElementsByTagName('head')[0].appendChild(favicon);
+    }
+    favicon.href = 'resources/TripleA.ico';
+  },
   filterDropDowns: function (
     listOption,
     ST_array = ["For Authors","For Artists","For Animators", "For Anyone Else", "For Academics"],
@@ -127,19 +138,18 @@ export const establishHTML = {
     title = helperFunctions.generateElement('h2', 'title', '', 'Showcase Portfolio 3.0'),
     quote = helperFunctions.generateElement('p', 'quote', '', `${quoteInfo[0]}`),
     author = helperFunctions.generateElement('p', 'author', '', `${quoteInfo[1]}`),
-    video = helperFunctions.generateElement('video', '', 'video'),
-    videoSource = helperFunctions.generateElement('source','','video/mp4','','resources/PortfolioVideo(Beta1).mp4')
+    banner = helperFunctions.generateElement('img', 'banner','','','resources/img/newBanner.png')
   ) {
     /**
      * STEP1: give video video properties
      * STEP2: append elements (order/nesting matters)
      */
 
-    helperFunctions.customSpecialElements(video); //STEP1
+    // helperFunctions.customSpecialElements(video); //STEP1
     //STEP2
     infoHolder = helperFunctions.appendChildren(infoHolder, title, quote, author);
-    video.appendChild(videoSource);
-    hero = helperFunctions.appendChildren(hero, infoHolder, video);
+    // video.appendChild(videoSource);
+    hero = helperFunctions.appendChildren(hero, infoHolder, banner);
     document.querySelector('main').appendChild(hero);
   },
   heroQuotes: function (
@@ -238,7 +248,8 @@ export const establishHTML = {
 
       mainGrid.appendChild(projectHolder);
     }
-    mainGrid.style.backgroundImage = "url('resources/img/Early\ Morning\ Fantasy.jpg')"
+    //IF MAIN COUNT IS LESS THAN 4
+    // mainGrid.style.backgroundImage = "url('resources/img/Early\ Morning\ Fantasy.jpg')"
     contentWrap = helperFunctions.nestChildren(contentWrap, newMain,mainGrid)
     // contentWrap.appendChild(newMain);
     // console.log(results[i].name);
@@ -287,6 +298,7 @@ export const establishHTML = {
     //ORDER MATTERS HERE
   ){
     this.header();
+    this.favicon();
     this.filterDropDowns();
     sharedHTML.main();
     this.hero();

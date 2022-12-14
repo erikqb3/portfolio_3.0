@@ -116,6 +116,7 @@
                 // height: 100%;
               }
               img.tall{width: 125%;}
+              img.square{width: 125%;}
               img.wide{height: 100%;}
             }
             article.imgHolder:hover,
@@ -168,17 +169,21 @@
             }
           }
           figure:hover {
+            // cursor:pointer;
             div.overlay{
-              opacity: 1;
-              color:white;
+              // opacity: 1;
+              // color:white;
             }
             img{
-              box-shadow: 0 0 2.5rem black;
+              // box-shadow: 0 0 2.5rem black;
             }
           }
           
           figure.tall{
             width: 90%;
+          }
+          figure.square{
+            width: 100%;
           }
           figure.wide{
             width: 100%;
@@ -298,6 +303,9 @@
           figure.tall{
             width: 50%;
           }
+          figure.square{
+            // width: 50%;
+          }
           figure.wide{
           }
         }
@@ -320,6 +328,9 @@
             height: fit-content;
           }
           img.tall{
+            width: 60%;
+          }
+          img.square{
             width: 60%;
           }
           img.wide{

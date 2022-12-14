@@ -1,146 +1,182 @@
 {
   "img01" : {
-    "title":"Why hello there...",
+    "title":"",
     "type":"tall",
-    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatum tempore, consequatur optio incidunt eos dolorum at magnam exercitationem iure laudantium consectetur facere a dolorem eum asperiores inventore molestias enim! Molestias numquam alias facilis eius, totam officia maiores consequatur quibusdam facere? Debitis aspernatur, culpa atque accusantium provident tempore et doloremque animi iusto vitae excepturi eaque officia aliquid quam, quaerat reiciendis esse, dolore asperiores iste! Dolore expedita accusamus veritatis placeat earum accusantium quidem ex aperiam neque.",
-    "path":"images/CK_img01.png"
+    "description":"",
+    "path":"images/Keepers/Numb1.png"
   },
   "img02" : {
-    "title":"Come as you are",
-    "type":"tall",
-    "description":"A lot of these I did in church while I was listening. This one portrays the idea of being with Christ in a situation where you might feel worthy of it, but He’s accepting you anyways. He’s open to you and he’s not pushing you away or judging. He’s accepting you as you are as you come",
-    "path":"images/CK_img13.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb2.png"
   },
   "img12" : {
-    "title":"Let’s go together",
-    "type":"tall",
-    "description":"This picture goes along the same lines as my “Come as you are” drawing. I didn’t draw a background for this one because they could be walking anywhere: on a beach, in a field of wheat, or wherever. We all have different roads in life. Another thing I really like about this is that from the girl’s positon and body language; she is really happy. It’s pretty outside, they are having a good time, it’s peaceful; it’s a good day!",
-    "path":"images/CK_img12.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb3.png"
   },
   "img03" : {
-    "title":"Concert Dress",
-    "type":"tall",
-    "description":"I really enjoyed shading this one. This one I did for fun during school over the course of several days. I was inspired by an upcoming piano recital, thus the white striped sash and neck-line.<br>In terms of her posture; she could be getting ready for a performance, she might be nervous about a performance, who knows. Is she excited? Is she calm? What do you think?",
-    "path":"images/CK_img03.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb4.png"
   },
   "img04" : {
-    "title":"Excited at the sight",
+    "title":"",
     "type":"tall",
-    "description":"I like this one too!  It’s similar to the one of Christ accepting you as you come. I picture this woman seeing Christ in the distance and she’s excited to go up and talk to him. Like, right now! That’s the idea of this illustration: running to the Savior or wherever she’s running to.",
-    "path":"images/CK_img04.png"
+    "description":"",
+    "path":"images/Keepers/Numb5.png"
   },
   "img05" : {
-    "title":"The Caretaker(s)",
+    "title":"",
     "type":"wide",
-    "description":"It’s based off of a story I made up. The man holding the little baby is named Blake and he started an orphanage during a big war that left a bunch of kids without their parents. All the girls surrounding him are the same person and the main character of the story. Each one is a representation of the girl at different stages as she grew up under Blake’s care.<br>Another interpretation of the illustration would be that all the girls are separate individuals and the oldest girl with the sword helps Blake take care of the others as they grow up.",
-    "path":"images/CK_img05.png"
+    "description":"",
+    "path":"images/Keepers/Numb6.png"
   },
   "img06" : {
-    "title":"Cinderella",
-    "type":"tall",
-    "description":"What more can be said? With a girl in worn clothing feeding a mouse; it would be a surprise if Cinderella didn’t come to the viewer’s mind. This is one of the very few that are simply straight forward in terms of interpretation.",
-    "path":"images/CK_img06.png"
+    "title":"",
+    "type":"wide",
+    "description":"",
+    "path":"images/Keepers/Numb7.png"
   },
   "img07" : {
-    "title":"Pleased with Simplicity",
-    "type":"tall",
-    "description":"I like the shading on the dress and the folds of it. Inspiration for this comes from another story I’m writing (just for recreation). The young woman portrayed is a princess who appreciates the more simple things and is preparing to go to a party/ball. Thus the plain dress is still pleasing and worthy of trying on and playing with a bit.",
-    "path":"images/CK_img07.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb8.png"
   },
   "img08" : {
-    "title":"The Spirit of Thanksgiving",
-    "type":"tall",
-    "description":"This was done around thanksgiving. The relationship between the two characters and what they are doing can be interpreted in many ways. They could be on the receiving end and were given food from someone else. They could be coming back from the store. They could be taking food to give to someone. The girl and boy might be together or this might be a first encounter as they head in the same direction with similar intentions. So many possibilities! But, still based around the theme of Thanksgiving and sharing what you have with those who might not have as much.",
-    "path":"images/CK_img08.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb9.png"
   },
   "img9" : {
-    "title":"Family Swirls",
-    "type":"tall",
-    "description":"In this occasion specifically, I was thinking more about families and their connections to each other. Every swirl is a person and how the swirls are connected shows how they are connected. The top most swirls represent the grandparents, the more central swirls represent the mother and father, and all other connecting swirls represent their children and their children. Can you count the number of children and grandchildren? This is not my family, but an example of the family.",
-    "path":"images/CK_img09.png"
+    "title":"",
+    "type":"wide",
+    "description":"",
+    "path":"images/Keepers/Numb10.png"
   },
   "img10" : {
-    "title":"Dance amongst the waves",
+    "title":"",
     "type":"tall",
-    "description":"Think was partially inspired from Christ walking on water. But who they are in relationship to each other and what they are doing, who knows. They could be dancing and in mirror positions at this point. I could’ve made the waves look a little more like water, but as a while I like the idea.",
-    "path":"images/CK_img10.png"
+    "description":"",
+    "path":"images/Keepers/Numb11.png"
   },
   "img11" : {
-    "title":"United and Divine",
-    "type":"wide",
-    "description":"The inspiration behind this illustration is me with my young women’s group around high school time. The picture is based on the concept of unity and how we interacted and supported each other. All of them are beautiful princesses with beautiful crowns; a simple reminder of divine worth.",
-    "path":"images/CK_img11.png"
+    "title":"",
+    "type":"tall",
+    "description":"",
+    "path":"images/Keepers/Numb12.png"
   },
   "img13" : {
-    "title":"An expression of contention",
-    "type":"wide",
-    "description":"This is one of many illustrations that is based on an emotion I was currently feeling at the time. The feeling that inspired this drawing stems from a time when I had a disagreement with another person and not getting along with them. It’s not a peaceful picture. The situation at the time wasn’t too heated, but it definitely wasn’t peaceful. This is one of the pictures that definitely expresses a moment of time from my position more dramatically than a lot of other drawings I’ve done.",
-    "path":"images/CK_img02.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb13.png"
   },
   "img14" : {
-    "title":"The end of the rough",
+    "title":"",
     "type":"tall",
-    "description":"The idea behind this illustration is that of coming out of a storm. ‘This is the end of the rough. The sun is coming up, it will be a beautiful day, you’re fine, you made it through the storm.<br>One might consider the drawing to depict a storm coming rather than a storm passing; but that is again up to the viewer’s interpretation.",
-    "path":"images/CK_img14.png"
+    "description":"",
+    "path":"images/Keepers/Numb14.png"
   },
   "img15" : {
-    "title":"The Iconic Red Dragon",
-    "type":"tall",
-    "description":"This was just fun doing. I was literally doing something for a college class and had some extra paint. What I really love about it is that in its physical form, this painting is actually pretty small. I painted it in a notebook and it was about four inches by three or three and a half inches.  I like painting small things over big things.<br>The dragon itself is one I frequently draw and paint. One of the characters in my story has a pet dragon of this shape. One of my characters can shape shift into a dragon like this. If I draw a dragon, it will most likely be this dragon.",
-    "path":"images/CK_img15.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb15.png"
   },
   "img16" : {
-    "title":"Title16",
+    "title":"",
     "type":"tall",
-    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatum tempore, consequatur optio incidunt eos dolorum at magnam exercitationem iure laudantium consectetur facere a dolorem eum asperiores inventore molestias enim! Molestias numquam alias facilis eius, totam officia maiores consequatur quibusdam facere? Debitis aspernatur, culpa atque accusantium provident tempore et doloremque animi iusto vitae excepturi eaque officia aliquid quam, quaerat reiciendis esse, dolore asperiores iste! Dolore expedita accusamus veritatis placeat earum accusantium quidem ex aperiam neque.",
-    "path":"images/CK_img16.png"
+    "description":"",
+    "path":"images/Keepers/Numb16.png"
   },
   "img17" : {
-    "title":"Title17",
-    "type":"tall",
-    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatum tempore, consequatur optio incidunt eos dolorum at magnam exercitationem iure laudantium consectetur facere a dolorem eum asperiores inventore molestias enim! Molestias numquam alias facilis eius, totam officia maiores consequatur quibusdam facere? Debitis aspernatur, culpa atque accusantium provident tempore et doloremque animi iusto vitae excepturi eaque officia aliquid quam, quaerat reiciendis esse, dolore asperiores iste! Dolore expedita accusamus veritatis placeat earum accusantium quidem ex aperiam neque.",
-    "path":"images/CK_img17.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb17.png"
   },
   "img18" : {
-    "title":"Title18",
-    "type":"tall",
-    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatum tempore, consequatur optio incidunt eos dolorum at magnam exercitationem iure laudantium consectetur facere a dolorem eum asperiores inventore molestias enim! Molestias numquam alias facilis eius, totam officia maiores consequatur quibusdam facere? Debitis aspernatur, culpa atque accusantium provident tempore et doloremque animi iusto vitae excepturi eaque officia aliquid quam, quaerat reiciendis esse, dolore asperiores iste! Dolore expedita accusamus veritatis placeat earum accusantium quidem ex aperiam neque.",
-    "path":"images/CK_img18.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb18.png"
   },
   "img19" : {
-    "title":"Title19",
-    "type":"tall",
-    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatum tempore, consequatur optio incidunt eos dolorum at magnam exercitationem iure laudantium consectetur facere a dolorem eum asperiores inventore molestias enim! Molestias numquam alias facilis eius, totam officia maiores consequatur quibusdam facere? Debitis aspernatur, culpa atque accusantium provident tempore et doloremque animi iusto vitae excepturi eaque officia aliquid quam, quaerat reiciendis esse, dolore asperiores iste! Dolore expedita accusamus veritatis placeat earum accusantium quidem ex aperiam neque.",
-    "path":"images/CK_img19.png"
+    "title":"",
+    "type":"wide",
+    "description":"",
+    "path":"images/Keepers/Numb19.png"
   },
   "img20" : {
-    "title":"Title20",
-    "type":"tall",
-    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatum tempore, consequatur optio incidunt eos dolorum at magnam exercitationem iure laudantium consectetur facere a dolorem eum asperiores inventore molestias enim! Molestias numquam alias facilis eius, totam officia maiores consequatur quibusdam facere? Debitis aspernatur, culpa atque accusantium provident tempore et doloremque animi iusto vitae excepturi eaque officia aliquid quam, quaerat reiciendis esse, dolore asperiores iste! Dolore expedita accusamus veritatis placeat earum accusantium quidem ex aperiam neque.",
-    "path":"images/CK_img20.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb20.png"
   },
   "img21" : {
-    "title":"Title21",
-    "type":"tall",
-    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatum tempore, consequatur optio incidunt eos dolorum at magnam exercitationem iure laudantium consectetur facere a dolorem eum asperiores inventore molestias enim! Molestias numquam alias facilis eius, totam officia maiores consequatur quibusdam facere? Debitis aspernatur, culpa atque accusantium provident tempore et doloremque animi iusto vitae excepturi eaque officia aliquid quam, quaerat reiciendis esse, dolore asperiores iste! Dolore expedita accusamus veritatis placeat earum accusantium quidem ex aperiam neque.",
-    "path":"images/CK_img21.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb21.png"
   },
   "img22" : {
-    "title":"Title22",
-    "type":"tall",
-    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatum tempore, consequatur optio incidunt eos dolorum at magnam exercitationem iure laudantium consectetur facere a dolorem eum asperiores inventore molestias enim! Molestias numquam alias facilis eius, totam officia maiores consequatur quibusdam facere? Debitis aspernatur, culpa atque accusantium provident tempore et doloremque animi iusto vitae excepturi eaque officia aliquid quam, quaerat reiciendis esse, dolore asperiores iste! Dolore expedita accusamus veritatis placeat earum accusantium quidem ex aperiam neque.",
-    "path":"images/CK_img22.png"
+    "title":"",
+    "type":"wide",
+    "description":"",
+    "path":"images/Keepers/Numb22.png"
   },
   "img23" : {
-    "title":"Title23",
-    "type":"tall",
-    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatum tempore, consequatur optio incidunt eos dolorum at magnam exercitationem iure laudantium consectetur facere a dolorem eum asperiores inventore molestias enim! Molestias numquam alias facilis eius, totam officia maiores consequatur quibusdam facere? Debitis aspernatur, culpa atque accusantium provident tempore et doloremque animi iusto vitae excepturi eaque officia aliquid quam, quaerat reiciendis esse, dolore asperiores iste! Dolore expedita accusamus veritatis placeat earum accusantium quidem ex aperiam neque.",
-    "path":"images/CK_img23.png"
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb23.png"
   },
   "img24" : {
-    "title":"Title24",
+    "title":"",
     "type":"wide",
-    "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia, voluptatum tempore, consequatur optio incidunt eos dolorum at magnam exercitationem iure laudantium consectetur facere a dolorem eum asperiores inventore molestias enim! Molestias numquam alias facilis eius, totam officia maiores consequatur quibusdam facere? Debitis aspernatur, culpa atque accusantium provident tempore et doloremque animi iusto vitae excepturi eaque officia aliquid quam, quaerat reiciendis esse, dolore asperiores iste! Dolore expedita accusamus veritatis placeat earum accusantium quidem ex aperiam neque.",
-    "path":"images/CK_img24.jpg"
+    "description":"",
+    "path":"images/Keepers/Numb24.png"
+  },
+  "img25" : {
+    "title":"",
+    "type":"wide",
+    "description":"",
+    "path":"images/Keepers/Numb25.png"
+  },
+  "img26" : {
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb26.png"
+  },
+  "img27" : {
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb27.png"
+  },
+  "img28" : {
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb28.png"
+  },
+  "img29" : {
+    "title":"",
+    "type":"square",
+    "description":"",
+    "path":"images/Keepers/Numb29.png"
+  },
+  "img30" : {
+    "title":"",
+    "type":"tall",
+    "description":"",
+    "path":"images/Keepers/Numb30.png"
   }
 }

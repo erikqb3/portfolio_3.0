@@ -90,6 +90,8 @@
     padding: 1.5rem 0;
     font-size: 2rem;
     cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.35s;
   }
   html body header div#filterSettings_holder ul li:hover {
     background-color: rgb(1, 5, 42);
@@ -252,8 +254,8 @@ html body header div#filterSettings_holder.visible ul#nav li.dropDwn_holder ul.s
   html body main section#hero div#infoHolder p#author {
     font-style: italic;
   }
-  html body main section#hero video {
-    height: 27.5rem;
+  html body main section#hero img#banner {
+    width: 100%;
   }
   html body main div#mainGrid {
     width: 100%;

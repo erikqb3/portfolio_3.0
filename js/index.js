@@ -36,6 +36,17 @@ export const sharedHTML = {
 
     addAction.useFunctions();
   },
+  favicon: function(
+    favicon = document.querySelector("link[rel~='icon']")
+  ){ 
+    console.log("favicon",favicon);
+    if (!favicon) {
+        favicon = document.createElement('link');
+        favicon.rel = 'icon';
+        document.getElementsByTagName('head')[0].appendChild(favicon);
+    }
+    favicon.href = 'resources/TripleA.ico';
+  },
   footer: function (footerElement = helperFunctions.generateElement('footer')) {
     // console.log(footerElement);
     document.querySelector('body').appendChild(footerElement);
@@ -45,6 +56,7 @@ export const sharedHTML = {
   },
   useFunctions : function (){
     this.header();
+    this.favicon();
     this.main();
     this.footer();
   }

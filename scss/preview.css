@@ -69,6 +69,7 @@
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
+    transition: background-color 0.35s;
   }
   section#previewScreen section#side1 div#carousel div#slideControls button.shiftBtn:focus {
     outline: none;
@@ -85,6 +86,9 @@ section#previewScreen section#side1 div#carousel div#slideControls button.shiftB
     justify-content: space-between;
     align-items: center;
     color: rgb(0, 8, 85);
+  }
+  section#previewScreen section#side1 div#buttonNav div {
+    transition: color 0.35s;
   }
   section#previewScreen section#side1 div#buttonNav div.currentBtn {
     color: rgba(0, 8, 85, 0.5);
@@ -166,6 +170,7 @@ section#previewScreen section#side1 div#buttonNav div.slideBtn:active {
   }
   section#previewScreen section#side2 div#infoSection div#previewBtnHolder a#viewBtn,
 section#previewScreen section#side2 div#infoSection div#previewBtnHolder a#returnBtn {
+    transition: all 0.35s;
     width: 10rem;
   }
 }

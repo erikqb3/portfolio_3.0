@@ -1,5 +1,16 @@
 
 const establishHTML = {
+  favicon: function(
+    favicon = document.querySelector("link[rel~='icon']")
+  ){ 
+    console.log("favicon",favicon);
+    if (!favicon) {
+        favicon = document.createElement('link');
+        favicon.rel = 'icon';
+        document.getElementsByTagName('head')[0].appendChild(favicon);
+    }
+    favicon.href = 'images/favicon.png';
+  },
   fetchFromJSON : async function(
     json = "js/images.json"
   ){
@@ -34,12 +45,15 @@ const establishHTML = {
     // imgElement = helperFunctions.generateElement('img',img.title,"","",img.path)
   ){
     // console.log(img)
-    if (img.type == "tall"){
-      imgElement = helperFunctions.generateElement('img',`${img.title}_pic`,"tall","",img.path)
-    }
-    else if (img.type == "wide"){
-      imgElement = helperFunctions.generateElement('img',`${img.title}_pic`,"wide","",img.path)
-    }
+
+    imgElement = helperFunctions.generateElement('img', `${img.title}_pic`,`${img.type}`,"",img.path)
+    // if (img.type == "tall"){
+    //   imgElement = helperFunctions.generateElement('img',`${img.title}_pic`,"tall","",img.path)
+    // }
+    // else if (img.type == "wide"){
+    //   imgElement = helperFunctions.generateElement('img',`${img.title}_pic`,"wide","",img.path)
+    // }
+    // else if (img.type == "square")
 
     imgOverlay.appendChild(imgLabel);
     imgHolder = helperFunctions.appendChildren(imgHolder, imgOverlay,imgElement);
@@ -105,6 +119,7 @@ const establishHTML = {
   },
   useFunctions : function(){
     this.fetchFromJSON();
+    this.favicon();
     
   }
 }
