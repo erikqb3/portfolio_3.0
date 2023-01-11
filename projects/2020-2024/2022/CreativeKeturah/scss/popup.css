@@ -34,7 +34,7 @@
     transition: box-shadow 0.75s;
     width: 100%;
   }
-  section#popUp div#side1 figure div.overlay {
+  section#popUp div#side1 figure a.overlay {
     width: 100%;
     height: 100%;
     z-index: 2;
@@ -43,27 +43,20 @@
     opacity: 1;
     color: white;
     transition: opacity 0.5s;
+    text-decoration: none;
     overflow-y: scroll;
     text-align: center;
     text-shadow: 0 0 2.5px blue;
   }
-  section#popUp div#side1 figure div.overlay h1 {
+  section#popUp div#side1 figure a.overlay h1 {
     font-size: 1.25rem;
   }
-  section#popUp div#side1 figure div.overlay p {
+  section#popUp div#side1 figure a.overlay p {
     transition: all 0.75s;
-  }
-  section#popUp div#side1 figure div.overlay p a:link,
-section#popUp div#side1 figure div.overlay p a:visited {
-    color: white;
     text-decoration: none;
     line-height: 2rem;
+    margin-top: -0.25rem;
     font-weight: initial;
-  }
-  section#popUp div#side1 figure div.overlay p a:hover,
-section#popUp div#side1 figure div.overlay p a:active {
-    font-weight: bolder;
-    text-shadow: 0 0 2.5 white;
   }
   section#popUp div#side1 figure:hover {
     cursor: pointer;
@@ -85,7 +78,7 @@ section#popUp div#side1 figure div.overlay p a:active {
   }
 }
 @media only screen and (min-width: 760px) {
-  section#popUp div#side1 figure div.overlay {
+  section#popUp div#side1 figure a.overlay {
     overflow: hidden;
   }
   section#popUp div#side1 figure.tall {
@@ -116,7 +109,7 @@ section#popUp div#side1 figure div.overlay p a:active {
   }
 }
 @media only screen and (min-width: 1200px) {
-  section#popUp div#side1 figure div.overlay {
+  section#popUp div#side1 figure a.overlay {
     position: absolute;
     top: 0;
     display: flex;
@@ -124,6 +117,10 @@ section#popUp div#side1 figure div.overlay p a:active {
     align-items: center;
     justify-content: center;
     opacity: 0;
+  }
+  section#popUp div#side1 figure a:hover,
+section#popUp div#side1 figure a:active {
+    opacity: 1;
   }
   section#popUp.fadeIn {
     -webkit-animation-name: fadeIn;
