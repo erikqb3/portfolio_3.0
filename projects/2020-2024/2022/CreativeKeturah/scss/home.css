@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 0px) {
+  main div#pageLabel {
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main section#gallery {
+    margin: 2.5rem 0;
+  }
+  main section#gallery div#grid {
+    width: 20rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+  main section#gallery div#grid article.imgHolder {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    transition: border-radius 0.75s;
+  }
+  main section#gallery div#grid article.imgHolder div.imgOverlay {
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(0, 81, 255, 0.5) 75%);
+    transition: opacity 0.75s;
+  }
+  main section#gallery div#grid article.imgHolder div.imgOverlay h3 {
+    margin-bottom: 1rem;
+  }
+  main section#gallery div#grid article.imgHolder img.tall {
+    width: 125%;
+  }
+  main section#gallery div#grid article.imgHolder img.square {
+    width: 125%;
+  }
+  main section#gallery div#grid article.imgHolder img.wide {
+    height: 100%;
+  }
+  main section#gallery div#grid article.imgHolder:hover,
+main section#gallery div#grid article.imgHolder:active {
+    border-radius: 5%;
+  }
+  main section#gallery div#grid article.imgHolder:hover div.imgOverlay,
+main section#gallery div#grid article.imgHolder:active div.imgOverlay {
+    opacity: 1;
+  }
+  main section#gallery div#grid article.imgHolder:active div.imgOverlay {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 25%, rgba(75, 50, 255, 0.5) 75%);
+  }
+}
+@media only screen and (min-width: 760px) {
+  main section#gallery div#grid {
+    width: 45rem;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  main section#gallery div#grid {
+    width: 80rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}/*# sourceMappingURL=home.css.map */

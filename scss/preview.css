@@ -179,7 +179,8 @@ section#previewScreen section#side2 div#infoSection div#previewBtnHolder a#retur
     flex-direction: row;
     align-items: center;
     width: 90%;
-    margin: 2.5rem auto;
+    margin: 5vh auto;
+    height: 65vh;
   }
   section#previewScreen section#side1 {
     width: 50%;

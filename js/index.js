@@ -254,9 +254,21 @@ export const helperFunctions = {
       case 'input':
         element.setAttribute('type', paramClass);
         element.setAttribute('name', paramId);
+        break;
       case 'source':
         element.setAttribute('src', paramLink);
         element.setAttribute('type', paramClass);
+        break;
+      case 'button':
+        console.log(paramLink)
+        if (paramLink != ''){
+          console.log('okay')
+          element.addEventListener('click', ()=> {
+            console.log(paramLink);
+            window.location.href(paramLink);
+          })
+        }
+        break;
       default:
         break;
     }

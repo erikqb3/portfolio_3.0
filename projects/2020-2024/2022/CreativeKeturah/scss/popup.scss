@@ -1,0 +1,155 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 0px) {
+  section#popUp{
+    position:fixed;
+    top:0;
+    display:flex;
+    flex-direction: column;
+    z-index:2;
+    width:100%;
+    height: 100vh;
+    background-color:rgba(53, 113, 181, 0.75);
+    overflow:scroll;
+    div#side1{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      width: 100%;
+      height: 100vh;
+      margin: 0rem auto;
+      figure{
+        position:relative;
+        img{
+          display:flex;
+          margin: 0 auto;
+          box-shadow: 0 0 2.5rem white;
+          transition: box-shadow 0.75s;
+          width: 100%;
+        }
+        div.overlay{
+          width: 100%;
+          height: 100%;
+          // position:absolute;
+          z-index: 2;
+          padding:  1.5rem 0.5rem;
+          background-color: rgba(0,0,0,0.5);
+          opacity: 1;
+          color:white;
+          transition: opacity 0.5s;
+          overflow-y: scroll;
+          text-align:center;
+          text-shadow: 0 0 2.5px blue;
+          h1{
+            font-size: 1.25rem;
+          }
+          p {
+            transition:all 0.75s;
+            a:link,
+            a:visited{
+              color:white;
+              text-decoration:none;
+              line-height:2rem;
+              font-weight: initial;
+            }
+            a:hover,
+            a:active{
+              font-weight:bolder;
+              text-shadow: 0 0 2.5 white;
+
+            }
+          }
+        }
+
+      }
+      figure:hover {
+        cursor:pointer;
+        div.overlay{
+          opacity: 1;
+          
+        }
+        img{
+          box-shadow: 0 0 2.5rem black;
+        }
+      }
+      
+      figure.tall{
+        width: 90%;
+      }
+      figure.square{
+        width: 100%;
+      }
+      figure.wide{
+        width: 90%;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 760px) {
+  section#popUp{
+    div#side1{
+      figure{
+        div.overlay{
+          overflow:hidden;
+        }
+      }
+      figure.tall{
+        width: 50%;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+  section#popUp{
+    flex-direction:row;
+    overflow:initial;
+    div#side1{
+      width: 50%;
+      figure{
+        height: fit-content;
+      }
+      figure.tall{
+        width: 60%;
+      }
+      figure.square{
+        width: 60%;
+      }
+      figure.wide{
+        width: 90%;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1200px) {
+  section#popUp{
+    div#side1{
+      figure{
+        div.overlay{
+          position:absolute;
+          top:0;
+          display:flex;
+          flex-direction:column;
+          align-items:center;
+          justify-content:center;
+          opacity:0;
+        }
+      }
+    }
+  }
+  section#popUp.fadeIn{
+    animation-name:fadeIn;
+    animation-duration: 0.75s;
+  }
+  @keyframes fadeIn {
+    from{opacity: 0;}
+    to {opacity: 1;}
+  }
+}
+@media only screen and (min-width: 1600px) {
+}
+

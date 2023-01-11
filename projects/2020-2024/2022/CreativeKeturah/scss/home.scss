@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+@media only screen and (min-width: 0px) {
+  main{
+    div#pageLabel{
+      width: 100%;
+      height: fit-content;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+    }
+    section#gallery{
+      margin: 2.5rem 0;
+      div#grid{
+        width: 20rem;
+        margin: 0 auto;
+        display:grid;
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
+        article.imgHolder{
+          cursor:pointer;
+          position:relative;
+          display:flex;
+          align-items:start;
+          justify-content:center;
+          width: 100%;
+          height: 20rem;
+          overflow: hidden;
+          transition: border-radius 0.75s;
+          div.imgOverlay{
+            opacity:0;
+            position:absolute;
+            bottom: 0;
+            display:flex;
+            align-items:end;
+            justify-content:center;
+            width: 100%;
+            height: 100%;
+            color:white;
+            background: rgb(255,255,255);
+            background: linear-gradient(180deg, rgba(255,255,255,0) 25%, rgba(0, 81, 255, 0.50) 75%);
+            transition: opacity 0.75s;
+            h3{
+              margin-bottom: 1rem;
+            }
+          }
+          img{
+            // width: 100%;
+            // height: 100%;
+          }
+          img.tall{width: 125%;}
+          img.square{width: 125%;}
+          img.wide{height: 100%;}
+        }
+        article.imgHolder:hover,
+        article.imgHolder:active {
+          border-radius: 5%;
+          div.imgOverlay{opacity: 1;}
+        }
+        article.imgHolder:active{
+          div.imgOverlay{background: linear-gradient(180deg, rgba(255,255,255,0) 25%, rgba(75, 50, 255, 0.50) 75%);}
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 760px) {
+  main{
+    section#gallery{
+      div#grid{
+        width: 45rem;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {
+  main{
+    section#gallery{
+      div#grid{
+        width: 80rem;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+    
+  }
+}
+@media only screen and (min-width: 1600px) {
+}
+

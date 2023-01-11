@@ -1,182 +1,152 @@
 {
   "img01" : {
-    "title":"",
+    "title":"img",
     "type":"tall",
-    "description":"",
     "path":"images/Keepers/Numb1.png"
   },
   "img02" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb2.png"
   },
   "img12" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb3.png"
   },
   "img03" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb4.png"
   },
   "img04" : {
-    "title":"",
+    "title":"img",
     "type":"tall",
-    "description":"",
     "path":"images/Keepers/Numb5.png"
   },
   "img05" : {
-    "title":"",
+    "title":"img",
     "type":"wide",
-    "description":"",
     "path":"images/Keepers/Numb6.png"
   },
   "img06" : {
-    "title":"",
+    "title":"img",
     "type":"wide",
-    "description":"",
     "path":"images/Keepers/Numb7.png"
   },
   "img07" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb8.png"
   },
   "img08" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb9.png"
   },
   "img9" : {
-    "title":"",
+    "title":"img",
     "type":"wide",
-    "description":"",
     "path":"images/Keepers/Numb10.png"
   },
   "img10" : {
-    "title":"",
+    "title":"img",
     "type":"tall",
-    "description":"",
     "path":"images/Keepers/Numb11.png"
   },
   "img11" : {
-    "title":"",
+    "title":"img",
     "type":"tall",
-    "description":"",
     "path":"images/Keepers/Numb12.png"
   },
   "img13" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb13.png"
   },
   "img14" : {
-    "title":"",
+    "title":"img",
     "type":"tall",
-    "description":"",
     "path":"images/Keepers/Numb14.png"
   },
   "img15" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb15.png"
   },
   "img16" : {
-    "title":"",
+    "title":"img",
     "type":"tall",
-    "description":"",
     "path":"images/Keepers/Numb16.png"
   },
   "img17" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb17.png"
   },
   "img18" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb18.png"
   },
   "img19" : {
-    "title":"",
+    "title":"img",
     "type":"wide",
-    "description":"",
     "path":"images/Keepers/Numb19.png"
   },
   "img20" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb20.png"
   },
   "img21" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb21.png"
   },
   "img22" : {
-    "title":"",
+    "title":"img",
     "type":"wide",
-    "description":"",
     "path":"images/Keepers/Numb22.png"
   },
   "img23" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb23.png"
   },
   "img24" : {
-    "title":"",
+    "title":"img",
     "type":"wide",
-    "description":"",
     "path":"images/Keepers/Numb24.png"
   },
   "img25" : {
-    "title":"",
+    "title":"img",
     "type":"wide",
-    "description":"",
     "path":"images/Keepers/Numb25.png"
   },
   "img26" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb26.png"
   },
   "img27" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb27.png"
   },
   "img28" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb28.png"
   },
   "img29" : {
-    "title":"",
+    "title":"img",
     "type":"square",
-    "description":"",
     "path":"images/Keepers/Numb29.png"
   },
   "img30" : {
-    "title":"",
+    "title":"img",
     "type":"tall",
-    "description":"",
     "path":"images/Keepers/Numb30.png"
   }
 }
