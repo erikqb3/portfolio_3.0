@@ -36,7 +36,6 @@
   }
   section#popUp div#side1 figure a.overlay {
     width: 100%;
-    height: 100%;
     z-index: 2;
     padding: 1.5rem 0.5rem;
     background-color: rgba(0, 0, 0, 0.5);
@@ -47,6 +46,7 @@
     overflow-y: scroll;
     text-align: center;
     text-shadow: 0 0 2.5px blue;
+    position: absolute;
   }
   section#popUp div#side1 figure a.overlay h1 {
     font-size: 1.25rem;
@@ -110,6 +110,7 @@
 }
 @media only screen and (min-width: 1200px) {
   section#popUp div#side1 figure a.overlay {
+    height: 100%;
     position: absolute;
     top: 0;
     display: flex;

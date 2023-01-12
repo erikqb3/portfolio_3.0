@@ -39,33 +39,33 @@
   html body header div#bannerANDlogo img#banner {
     width: 200%;
   }
-  html body header nav {
+  html body nav {
     width: 100%;
     display: flex;
     justify-content: center;
     margin: 2.5rem 0;
   }
-  html body header nav ul {
+  html body nav ul {
     width: 17.5rem;
     list-style: none;
     display: flex;
     justify-content: space-between;
   }
-  html body header nav ul li {
+  html body nav ul li {
     font-size: 1.25rem;
     font-weight: bolder;
   }
-  html body header nav ul li a:link,
-html body header nav ul li a:visited {
+  html body nav ul li a:link,
+html body nav ul li a:visited {
     cursor: pointer;
     color: black;
     text-decoration: none;
     transition: color 0.5s;
   }
-  html body header nav ul li a:hover {
+  html body nav ul li a:hover {
     color: rgb(0, 81, 255);
   }
-  html body header nav ul li a:active {
+  html body nav ul li a:active {
     color: rgb(125, 50, 255);
   }
   html body i#scrollUp {
@@ -84,10 +84,10 @@ html body header nav ul li a:visited {
   html body header div#bannerANDlogo img#banner {
     margin-top: 17.5vw;
   }
-  html body header nav ul {
+  html body nav ul {
     width: 25rem;
   }
-  html body header nav ul li {
+  html body nav ul li {
     font-size: 1.5rem;
   }
 }
@@ -98,7 +98,7 @@ html body header nav ul li a:visited {
   html body header div#bannerANDlogo div#logoHolder img#logo {
     width: 15rem;
   }
-  html body header nav ul {
+  html body nav ul {
     width: 40rem;
   }
 }/*# sourceMappingURL=index.css.map */

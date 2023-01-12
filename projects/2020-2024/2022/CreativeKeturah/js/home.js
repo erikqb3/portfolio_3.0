@@ -2,6 +2,25 @@ import { helperFunctions } from "./helperFunctions.js";
 import { indexContent } from "./index.js";
 
 export const homeContent = {
+  constructPage : function(
+    body = document.querySelector('body')
+  ){
+    indexContent.favicon();
+    body = helperFunctions.appendChildren(body, this.header(), indexContent.nav(), this.main(), indexContent.scrollUp())
+    this.fetchFromJSON();
+  },
+  header: function(
+    headerElement = helperFunctions.generateElement('header'),
+    bannerANDlogo = helperFunctions.generateElement('div',"bannerANDlogo"),
+    logoHolder = indexContent.logoHolder(),
+    banner = helperFunctions.generateElement('img',"banner","","","images/Keepers/Numb21.png"),
+    navElement = indexContent.nav()
+  ){
+    headerElement = helperFunctions.nestChildren(headerElement, bannerANDlogo, logoHolder);
+    bannerANDlogo.appendChild(banner);
+    // headerElement.appendChild(navElement);
+    return headerElement;
+  },
   fetchFromJSON : async function(
     json = "js/images.json"
   ){
@@ -51,6 +70,16 @@ export const homeContent = {
     // console.log(imgHolder);
     return imgHolder;
   },
+  main: function(
+    mainElement = helperFunctions.generateElement('main'),
+    pageLabel = helperFunctions.generateElement('div',"pageLabel"),
+    h1 = helperFunctions.generateElement('h1',"","","Portfolio Sketches"),
+    p = helperFunctions.generateElement('p',"","subtext","(Click to enlarge)")
+  ){
+    mainElement = helperFunctions.nestChildren(mainElement, pageLabel, h1);
+    pageLabel.appendChild(p);
+    return mainElement;
+  },
   popUpPreview : function(
     imgData, 
     imgHolder,
@@ -84,35 +113,6 @@ export const homeContent = {
       })
       document.querySelector('body').appendChild(popUp);
 
-  },
-  constructPage : function(
-    body = document.querySelector('body')
-  ){
-    indexContent.favicon();
-    body = helperFunctions.appendChildren(body, this.header(), this.main(), indexContent.scrollUp())
-    this.fetchFromJSON();
-  },
-  header: function(
-    headerElement = helperFunctions.generateElement('header'),
-    bannerANDlogo = helperFunctions.generateElement('div',"bannerANDlogo"),
-    logoHolder = indexContent.logoHolder(),
-    banner = helperFunctions.generateElement('img',"banner","","","images/Keepers/Numb21.png"),
-    navElement = indexContent.nav()
-  ){
-    headerElement = helperFunctions.nestChildren(headerElement, bannerANDlogo, logoHolder);
-    bannerANDlogo.appendChild(banner);
-    headerElement.appendChild(navElement);
-    return headerElement;
-  },
-  main: function(
-    mainElement = helperFunctions.generateElement('main'),
-    pageLabel = helperFunctions.generateElement('div',"pageLabel"),
-    h1 = helperFunctions.generateElement('h1',"","","Portfolio Sketches"),
-    p = helperFunctions.generateElement('p',"","subtext","(Click to enlarge)")
-  ){
-    mainElement = helperFunctions.nestChildren(mainElement, pageLabel, h1);
-    pageLabel.appendChild(p);
-    return mainElement;
   }
 }
 

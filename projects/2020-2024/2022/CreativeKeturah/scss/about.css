@@ -1,0 +1,70 @@
+@media only screen and (min-width: 0px) {
+  html body {
+    background-color: rgb(230, 242, 243);
+  }
+  html body header div#bannerANDlogo {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: initial;
+    position: relative;
+  }
+  html body header div#bannerANDlogo div#logoHolder {
+    position: relative;
+    height: 15vh;
+  }
+  html body main {
+    background-image: url("../images/Keepers/Numb21.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    margin-top: 15vh;
+    width: 100%;
+    display: flex;
+  }
+  html body main div#filter {
+    background-color: rgba(230, 242, 243, 0.75);
+    width: 100%;
+  }
+  html body main div#filter div#pageLabel {
+    margin-top: 15vh;
+    width: 100%;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    text-align: center;
+  }
+  html body main div#filter div#content {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  html body main div#filter div#content p {
+    width: 80%;
+    margin: 2.5rem auto;
+  }
+  html body main div#filter div#content figure {
+    width: 80%;
+  }
+  html body main div#filter div#content figure img {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 760px) {
+  html body header div#bannerANDlogo img#banner {
+    margin-top: 17.5vw;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  html body header div#bannerANDlogo {
+    height: 35rem;
+  }
+  html body header div#bannerANDlogo div#logoHolder img#logo {
+    width: 15rem;
+  }
+}/*# sourceMappingURL=about.css.map */
