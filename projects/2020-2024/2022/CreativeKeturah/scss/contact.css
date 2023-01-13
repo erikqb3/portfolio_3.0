@@ -22,6 +22,7 @@
     top: 0;
     z-index: -1;
     padding-top: 15vh;
+    height: 100vh;
     width: 100%;
     display: flex;
   }
@@ -45,22 +46,29 @@
     justify-content: center;
   }
   html body main div#filter div#content p {
-    width: 80%;
+    width: 15rem;
     margin: 2.5rem auto;
-    padding: 1rem;
+    padding: 5rem 0;
     background-color: rgba(53, 113, 181, 0.5);
     border-radius: 10px;
     transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  html body main div#filter div#content p i {
+    font-size: 5rem;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  html body main div#filter div#content p i:hover,
+html body main div#filter div#content p i:active {
+    color: rgba(255, 255, 255, 0.5);
   }
   html body main div#filter div#content p:hover,
 html body main div#filter div#content p:active {
     background-color: rgba(53, 113, 181, 0.75);
-  }
-  html body main div#filter div#content figure {
-    width: 80%;
-  }
-  html body main div#filter div#content figure img {
-    width: 100%;
   }
 }
 @media only screen and (min-width: 760px) {
@@ -68,10 +76,10 @@ html body main div#filter div#content p:active {
     background-image: url("../images/Keepers/Numb21.png");
   }
   html body main div#filter div#content p {
+    width: 25rem;
+    justify-content: space-evenly;
     font-size: 1.25rem;
-  }
-  html body main div#filter div#content figure {
-    width: 50%;
+    flex-direction: row;
   }
 }
 @media only screen and (min-width: 1200px) {
@@ -97,4 +105,4 @@ html body main div#filter div#content p:active {
   html body main div#filter div#content figure {
     width: 30%;
   }
-}/*# sourceMappingURL=about.css.map */
+}/*# sourceMappingURL=contact.css.map */
