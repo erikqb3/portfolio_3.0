@@ -13,7 +13,7 @@ export const homeContent = {
     headerElement = helperFunctions.generateElement('header'),
     bannerANDlogo = helperFunctions.generateElement('div',"bannerANDlogo"),
     logoHolder = indexContent.logoHolder(),
-    banner = helperFunctions.generateElement('img',"banner","","","images/Keepers/Numb21.png"),
+    banner = helperFunctions.generateElement('img',"banner","","","images/Keepers/Numb21.webp"),
     navElement = indexContent.nav()
   ){
     headerElement = helperFunctions.nestChildren(headerElement, bannerANDlogo, logoHolder);
