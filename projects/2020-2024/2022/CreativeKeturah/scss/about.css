@@ -14,7 +14,7 @@
     height: 15vh;
   }
   html body main {
-    background-image: url("../images/Keepers/Numb16.png");
+    background-image: url("../images/Keepers/Numb16.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +65,7 @@ html body main div#filter div#content p:active {
 }
 @media only screen and (min-width: 760px) {
   html body main {
-    background-image: url("../images/Keepers/Numb21.png");
+    background-image: url("../images/Keepers/Numb21.webp");
   }
   html body main div#filter div#content p {
     font-size: 1.25rem;
