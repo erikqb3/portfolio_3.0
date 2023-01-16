@@ -150,7 +150,7 @@ export const addAction = {
               break;
             case "Resume":
               i.addEventListener('click',(e)=>{
-                window.location.href = ("/views/resume.html");
+                window.location.href = ("./views/resume.html");
               })
               break;
             case "Contact":
