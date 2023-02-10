@@ -105,7 +105,7 @@ const establishHTML = {
 }
 
 const previewPageActions = {
-    carouselActions : {
+  carouselActions : {
     index : 1,
     intervalFunction : 0,
     interval : 5000,
@@ -138,8 +138,8 @@ const previewPageActions = {
     startSlides : function(slidesHolder,slideWidth){
         this.intervalFunction = setInterval(() => {
         this.moveToNextSlide(slidesHolder,slideWidth);
-       }, this.interval);
-       return;
+      }, this.interval);
+      return;
     },
     getSlides : function(){return document.querySelectorAll('.slide')},
     moveToNextSlide : function(slidesHolder,slideWidth){
